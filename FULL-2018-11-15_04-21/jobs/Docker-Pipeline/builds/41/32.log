@@ -1,0 +1,4 @@
+[Docker-Pipeline] Running shell script
++ docker run -p 9090:8080 -D --name=dev-test222 deepthimogaparthi1207/dev-test1:1.0
+unknown shorthand flag: 'D' in -D
+See 'docker run --help'.

@@ -1,0 +1,263 @@
+Started by user [8mha:////4D54hLzVxf8lSFzgZgY8s+XqD8jl3MBRLZYNs5GItQGkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4AQatsHzbmXOJvcy0Fh2RlJkE1Zwbs1Y/kfu82w+36GIAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/Calculator-pipeline
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Cloning source code)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/DevopsDevOrg/Repo1.git # timeout=10
+Fetching upstream changes from https://github.com/DevopsDevOrg/Repo1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/DevopsDevOrg/Repo1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision c93d166834195ec5d3b66b1dd4628b9f24875512 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c93d166834195ec5d3b66b1dd4628b9f24875512
+Commit message: "Update Dockerfile"
+ > git rev-list --no-walk c93d166834195ec5d3b66b1dd4628b9f24875512 # timeout=10
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] parallel
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] { (Branch: first)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] { (Branch: second)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] { (Static code analysis)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] { (Build and Test)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] sh
+[first] [Calculator-pipeline] Running shell script
+[first] + sudo scp -r /var/lib/jenkins/workspace/Calculator-pipeline /var/
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] sh
+[first] + sudo -i
+[first] mesg: ttyname failed: Inappropriate ioctl for device
+[first] + cd /var/Calculator-pipeline
+[first] + sudo mvn sonar:sonar -Dsonar.projectKey=DevopsDevOrg_Repo1 -Dsonar.organization=devopsdevorg-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=8d4c67077738cbd8a232200e0c9dc6bff7e06acf
+[second] [Calculator-pipeline] Running shell script
+[second] + mvn clean package
+[first] [[1;34mINFO[m] Scanning for projects...
+[second] [[1;34mINFO[m] Scanning for projects...
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[second] [[1;34mINFO[m] [1mBuilding CalculatorWeb Maven Webapp 1-SNAPSHOT[m
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/Calculator-pipeline/target
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mCALCULATOR[0;1m ---[m
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat7-maven-plugin/2.2/tomcat7-maven-plugin-2.2.pom
+[second] [[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[second] [[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Calculator-pipeline/src/main/resources
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;34mINFO[m] Changes detected - recompiling the module!
+[second] [[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[second] [[1;34mINFO[m] Compiling 2 source files to /var/lib/jenkins/workspace/Calculator-pipeline/target/classes
+[first] Progress (1): 2.2/12 kBProgress (1): 5.0/12 kBProgress (1): 7.8/12 kBProgress (1): 11/12 kB Progress (1): 12 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat7-maven-plugin/2.2/tomcat7-maven-plugin-2.2.pom (12 kB at 6.5 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat-maven-plugin/2.2/tomcat-maven-plugin-2.2.pom
+[first] Progress (1): 2.2/33 kBProgress (1): 5.0/33 kBProgress (1): 7.8/33 kBProgress (1): 11/33 kB Progress (1): 13/33 kBProgress (1): 16/33 kBProgress (1): 19/33 kBProgress (1): 21/33 kBProgress (1): 24/33 kBProgress (1): 27/33 kBProgress (1): 30/33 kBProgress (1): 32/33 kBProgress (1): 33 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat-maven-plugin/2.2/tomcat-maven-plugin-2.2.pom (33 kB at 85 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/12/apache-12.pom
+[first] Progress (1): 2.2/16 kBProgress (1): 5.0/16 kBProgress (1): 7.8/16 kBProgress (1): 11/16 kB Progress (1): 13/16 kBProgress (1): 16 kB   [second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[second] [[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Calculator-pipeline/src/test/resources
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;34mINFO[m] Changes detected - recompiling the module!
+[second] [[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[second] [[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/Calculator-pipeline/target/test-classes
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mCALCULATOR[0;1m ---[m
+[first]                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/12/apache-12.pom (16 kB at 60 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat7-maven-plugin/2.2/tomcat7-maven-plugin-2.2.jar
+[first] Progress (1): 2.2/114 kBProgress (1): 5.0/114 kBProgress (1): 7.7/114 kBProgress (1): 10/114 kB Progress (1): 13/114 kBProgress (1): 16/114 kBProgress (1): 19/114 kBProgress (1): 21/114 kBProgress (1): 24/114 kBProgress (1): 27/114 kBProgress (1): 30/114 kBProgress (1): 32/114 kBProgress (1): 36/114 kBProgress (1): 40/114 kBProgress (1): 45/114 kBProgress (1): 49/114 kBProgress (1): 53/114 kBProgress (1): 57/114 kBProgress (1): 61/114 kBProgress (1): 65/114 kBProgress (1): 69/114 kBProgress (1): 73/114 kBProgress (1): 77/114 kBProgress (1): 81/114 kBProgress (1): 85/114 kBProgress (1): 90/114 kBProgress (1): 94/114 kBProgress (1): 98/114 kBProgress (1): 102/114 kBProgress (1): 106/114 kBProgress (1): 110/114 kBProgress (1): 114/114 kBProgress (1): 114 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat7-maven-plugin/2.2/tomcat7-maven-plugin-2.2.jar (114 kB at 292 kB/s)
+[second] [[1;34mINFO[m] Surefire report directory: /var/lib/jenkins/workspace/Calculator-pipeline/target/surefire-reports
+[second] 
+[second] -------------------------------------------------------
+[second]  T E S T S
+[second] -------------------------------------------------------
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom
+[first] Progress (1): 2.8/6.4 kBProgress (1): 5.5/6.4 kBProgress (1): 6.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom (6.4 kB at 24 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+[first] Progress (1): 2.2/27 kBProgress (1): 5.0/27 kBProgress (1): 7.7/27 kBProgress (1): 10/27 kB Progress (1): 13/27 kBProgress (1): 16/27 kBProgress (1): 19/27 kBProgress (1): 21/27 kBProgress (1): 24/27 kBProgress (1): 27/27 kBProgress (1): 27 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar (27 kB at 101 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom
+[first] Progress (1): 2.2/5.6 kBProgress (1): 5.0/5.6 kBProgress (1): 5.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom (5.6 kB at 22 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+[first] Progress (1): 2.2/27 kBProgress (1): 5.0/27 kBProgress (1): 7.7/27 kBProgress (1): 10/27 kB Progress (1): 13/27 kBProgress (1): 16/27 kBProgress (1): 19/27 kBProgress (1): 21/27 kBProgress (1): 24/27 kB[second] Running CalculatorTest
+[second] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 sec
+[first] Progress (1): 27 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar (27 kB at 104 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.pom
+[first] Progress (1): 1.9/21 kBProgress (1): 4.6/21 kBProgress (1): 7.4/21 kBProgress (1): 10/21 kB Progress (1): 13/21 kBProgress (1): 16/21 kBProgress (1): 18/21 kBProgress (1): 21 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.pom (21 kB at 84 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar
+[first] Progress (1): 2.2/124 kBProgress (1): 5.0/124 kBProgress (1): 7.7/124 kBProgress (1): 10/124 kB Progress (1): 13/124 kBProgress (1): 16/124 kBProgress (1): 19/124 kBProgress (1): 21/124 kBProgress (1): 24/124 kBProgress (1): 27/124 kBProgress (1): 30/124 kBProgress (1): 32/124 kBProgress (1): 36/124 kBProgress (1): 40/124 kBProgress (1): 45/124 kBProgress (1): 49/124 kBProgress (1): 53/124 kBProgress (1): 57/124 kBProgress (1): 61/124 kBProgress (1): 65/124 kBProgress (1): 69/124 kBProgress (1): 73/124 kBProgress (1): 77/124 kBProgress (1): 81/124 kBProgress (1): 85/124 kBProgress (1): 90/124 kBProgress (1): 94/124 kBProgress (1): 98/124 kBProgress (1): 102/124 kBProgress (1): 106/124 kBProgress (1): 110/124 kBProgress (1): 114/124 kBProgress (1): 118/124 kBProgress (1): 122/124 kBProgress (1): 124 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar (124 kB at 318 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom
+[first] Progress (1): 2.8/4.7 kBProgress (1): 4.7 kB    [second] 
+[second] Results :
+[second] 
+[second] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[second] 
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.2:war[m [1m(default-war)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;34mINFO[m] Packaging webapp
+[second] [[1;34mINFO[m] Assembling webapp [CALCULATOR] in [/var/lib/jenkins/workspace/Calculator-pipeline/target/CALCULATOR]
+[second] [[1;34mINFO[m] Processing war project
+[second] [[1;34mINFO[m] Copying webapp resources [/var/lib/jenkins/workspace/Calculator-pipeline/src/main/webapp]
+[second] [[1;34mINFO[m] Webapp assembled in [47 msecs]
+[second] [[1;34mINFO[m] Building war: /var/lib/jenkins/workspace/Calculator-pipeline/target/CALCULATOR.war
+[second] [[1;34mINFO[m] WEB-INF/web.xml already added, skipping
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[second] [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[second] [[1;34mINFO[m] Total time: 7.548 s
+[second] [[1;34mINFO[m] Finished at: 2018-10-23T06:21:06Z
+[second] [[1;34mINFO[m] Final Memory: 15M/36M
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[first]                     Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom (4.7 kB at 19 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] junit
+[second] Recording test results
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] }
+[first] Progress (1): 2.8/12 kBProgress (1): 5.5/12 kBProgress (1): 8.3/12 kBProgress (1): 11/12 kB Progress (1): 12 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom (12 kB at 48 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar
+[first] Progress (1): 2.8/24 kBProgress (1): 5.5/24 kBProgress (1): 8.3/24 kBProgress (1): 11/24 kB Progress (1): 14/24 kBProgress (1): 16/24 kBProgress (1): 19/24 kBProgress (1): 22/24 kBProgress (1): 24 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar (24 kB at 95 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom
+[first] Progress (1): 2.8/15 kBProgress (1): 5.5/15 kBProgress (1): 8.3/15 kBProgress (1): 11/15 kB Progress (1): 14/15 kBProgress (1): 15 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom (15 kB at 61 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom
+[first] Progress (1): 2.2/13 kBProgress (1): 5.0/13 kBProgress (1): 7.7/13 kBProgress (1): 11/13 kB Progress (1): 13 kB   [first]                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom (13 kB at 52 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/15/maven-parent-15.pom
+[first] Progress (1): 2.2/24 kBProgress (1): 5.0/24 kBProgress (1): 7.7/24 kBProgress (1): 11/24 kB Progress (1): 13/24 kBProgress (1): 16/24 kBProgress (1): 19/24 kBProgress (1): 21/24 kBProgress (1): 24 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/15/maven-parent-15.pom (24 kB at 94 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar
+[first] Progress (1): 2.2/209 kBProgress (1): 5.0/209 kBProgress (1): 7.7/209 kBProgress (1): 10/209 kB Progress (1): 13/209 kBProgress (1): 16/209 kBProgress (1): 19/209 kBProgress (1): 21/209 kBProgress (1): 24/209 kBProgress (1): 27/209 kBProgress (1): 30/209 kBProgress (1): 32/209 kBProgress (1): 36/209 kBProgress (1): 40/209 kBProgress (1): 45/209 kBProgress (1): 49/209 kBProgress (1): 53/209 kBProgress (1): 57/209 kBProgress (1): 61/209 kBProgress (1): 65/209 kBProgress (1): 69/209 kBProgress (1): 73/209 kBProgress (1): 77/209 kBProgress (1): 81/209 kBProgress (1): 85/209 kBProgress (1): 90/209 kBProgress (1): 94/209 kBProgress (1): 98/209 kBProgress (1): 102/209 kBProgress (1): 106/209 kBProgress (1): 110/209 kBProgress (1): 114/209 kBProgress (1): 118/209 kBProgress (1): 122/209 kBProgress (1): 126/209 kBProgress (1): 131/209 kBProgress (1): 135/209 kBProgress (1): 139/209 kBProgress (1): 143/209 kBProgress (1): 147/209 kBProgress (1): 151/209 kBProgress (1): 155/209 kBProgress (1): 159/209 kBProgress (1): 163/209 kBProgress (1): 167/209 kBProgress (1): 171/209 kBProgress (1): 176/209 kBProgress (1): 180/209 kBProgress (1): 184/209 kBProgress (1): 188/209 kBProgress (1): 192/209 kBProgress (1): 196/209 kBProgress (1): 200/209 kBProgress (1): 204/209 kBProgress (1): 208/209 kBProgress (1): 209 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar (209 kB at 558 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom
+[first] Progress (1): 4.1/11 kBProgress (1): 8.2/11 kBProgress (1): 11 kB    [first]                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom (11 kB at 46 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar
+[first] Progress (1): 4.1/153 kBProgress (1): 7.7/153 kBProgress (1): 12/153 kB Progress (1): 16/153 kBProgress (1): 20/153 kBProgress (1): 24/153 kBProgress (1): 28/153 kBProgress (1): 32/153 kBProgress (1): 36/153 kBProgress (1): 40/153 kBProgress (1): 45/153 kBProgress (1): 49/153 kBProgress (1): 53/153 kBProgress (1): 57/153 kBProgress (1): 61/153 kBProgress (1): 65/153 kBProgress (1): 69/153 kBProgress (1): 73/153 kBProgress (1): 77/153 kBProgress (1): 81/153 kBProgress (1): 85/153 kBProgress (1): 90/153 kBProgress (1): 94/153 kBProgress (1): 98/153 kBProgress (1): 102/153 kBProgress (1): 106/153 kBProgress (1): 110/153 kBProgress (1): 114/153 kBProgress (1): 118/153 kBProgress (1): 122/153 kBProgress (1): 126/153 kBProgress (1): 131/153 kBProgress (1): 135/153 kBProgress (1): 139/153 kBProgress (1): 143/153 kBProgress (1): 147/153 kBProgress (1): 151/153 kBProgress (1): 153 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar (153 kB at 411 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.3.2/maven-release-plugin-2.3.2.pom
+[first] Progress (1): 2.8/9.3 kBProgress (1): 5.5/9.3 kBProgress (1): 8.3/9.3 kBProgress (1): 9.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.3.2/maven-release-plugin-2.3.2.pom (9.3 kB at 37 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.3.2/maven-release-2.3.2.pom
+[first] Progress (1): 2.8/8.6 kBProgress (1): 5.5/8.6 kBProgress (1): 8.3/8.6 kBProgress (1): 8.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.3.2/maven-release-2.3.2.pom (8.6 kB at 35 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.3.2/maven-release-plugin-2.3.2.jar
+[first] Progress (1): 2.2/44 kBProgress (1): 5.0/44 kBProgress (1): 7.7/44 kBProgress (1): 10/44 kB Progress (1): 13/44 kBProgress (1): 16/44 kBProgress (1): 19/44 kBProgress (1): 21/44 kBProgress (1): 24/44 kBProgress (1): 27/44 kBProgress (1): 30/44 kBProgress (1): 32/44 kBProgress (1): 36/44 kBProgress (1): 40/44 kBProgress (1): 44 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.3.2/maven-release-plugin-2.3.2.jar (44 kB at 175 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+[first] Progress (1): 4.1/14 kBProgress (1): 8.2/14 kBProgress (1): 12/14 kB Progress (1): 14 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 54 kB/s)
+[first] Progress (1): 2.8/20 kBProgress (1): 5.5/20 kBProgress (1): 8.3/20 kBProgress (1): 11/20 kB Progress (1): 14/20 kBProgress (1): 16/20 kBProgress (1): 19/20 kBProgress (1): 20 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 33 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/sonar-maven-plugin/maven-metadata.xml
+[first] Progress (1): 1.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/sonar-maven-plugin/maven-metadata.xml (1.1 kB at 4.2 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/sonar-maven-plugin/3.5.0.1254/sonar-maven-plugin-3.5.0.1254.pom
+[first] Progress (1): 1.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/sonar-maven-plugin/3.5.0.1254/sonar-maven-plugin-3.5.0.1254.pom (1.1 kB at 4.3 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom
+[first] Progress (1): 2.8/34 kBProgress (1): 5.5/34 kBProgress (1): 8.3/34 kBProgress (1): 11/34 kB Progress (1): 14/34 kBProgress (1): 16/34 kBProgress (1): 19/34 kBProgress (1): 22/34 kBProgress (1): 25/34 kBProgress (1): 27/34 kBProgress (1): 30/34 kBProgress (1): 33/34 kBProgress (1): 34 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom (34 kB at 132 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.5.0.1254/sonar-maven-plugin-3.5.0.1254.pom
+[first] Progress (1): 2.2/9.1 kBProgress (1): 5.0/9.1 kBProgress (1): 7.8/9.1 kBProgress (1): 9.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.5.0.1254/sonar-maven-plugin-3.5.0.1254.pom (9.1 kB at 37 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/46/parent-46.pom
+[first] Progress (1): 2.2/32 kBProgress (1): 5.0/32 kBProgress (1): 7.8/32 kBProgress (1): 11/32 kB Progress (1): 13/32 kBProgress (1): 16/32 kBProgress (1): 19/32 kBProgress (1): 21/32 kBProgress (1): 24/32 kBProgress (1): 27/32 kBProgress (1): 30/32 kBProgress (1): 32 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/46/parent-46.pom (32 kB at 122 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.5.0.1254/sonar-maven-plugin-3.5.0.1254.jar
+[first] Progress (1): 2.2/44 kBProgress (1): 5.0/44 kBProgress (1): 7.7/44 kBProgress (1): 10/44 kB Progress (1): 13/44 kBProgress (1): 16/44 kBProgress (1): 19/44 kBProgress (1): 21/44 kBProgress (1): 24/44 kBProgress (1): 27/44 kBProgress (1): 30/44 kBProgress (1): 32/44 kBProgress (1): 36/44 kBProgress (1): 40/44 kBProgress (1): 44 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.5.0.1254/sonar-maven-plugin-3.5.0.1254.jar (44 kB at 175 kB/s)
+[first] [[1;34mINFO[m] 
+[first] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[first] [[1;34mINFO[m] [1mBuilding CalculatorWeb Maven Webapp 1-SNAPSHOT[m
+[first] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[first] [[1;34mINFO[m] 
+[first] [[1;34mINFO[m] [1m--- [0;32msonar-maven-plugin:3.5.0.1254:sonar[m [1m(default-cli)[m @ [36mCALCULATOR[0;1m ---[m
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.pom
+[first] Progress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.pom (3.0 kB at 12 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom
+[first] Progress (1): 2.8/3.8 kBProgress (1): 3.8 kB    [first]                     Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom (3.8 kB at 15 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api/2.10.0.1189/sonar-scanner-api-2.10.0.1189.pom
+[first] Progress (1): 2.2/5.4 kBProgress (1): 5.0/5.4 kBProgress (1): 5.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api/2.10.0.1189/sonar-scanner-api-2.10.0.1189.pom (5.4 kB at 22 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api-parent/2.10.0.1189/sonar-scanner-api-parent-2.10.0.1189.pom
+[first] Progress (1): 2.0/4.9 kBProgress (1): 4.8/4.9 kBProgress (1): 4.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api-parent/2.10.0.1189/sonar-scanner-api-parent-2.10.0.1189.pom (4.9 kB at 19 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/41/parent-41.pom
+[first] Progress (1): 2.8/31 kBProgress (1): 5.5/31 kBProgress (1): 8.3/31 kBProgress (1): 11/31 kB Progress (1): 14/31 kBProgress (1): 16/31 kBProgress (1): 19/31 kBProgress (1): 22/31 kBProgress (1): 25/31 kBProgress (1): 27/31 kBProgress (1): 30/31 kBProgress (1): 31 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/41/parent-41.pom (31 kB at 117 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[first] Progress (1): 2.8/17 kBProgress (1): 5.5/17 kBProgress (1): 8.3/17 kBProgress (1): 11/17 kB Progress (1): 14/17 kBProgress (1): 16/17 kBProgress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (17 kB at 69 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[first] Progress (1): 2.8/31 kBProgress (1): 5.5/31 kBProgress (1): 8.3/31 kBProgress (1): 11/31 kB Progress (1): 14/31 kBProgress (1): 16/31 kBProgress (1): 19/31 kBProgress (1): 22/31 kBProgress (1): 25/31 kBProgress (1): 27/31 kBProgress (1): 30/31 kBProgress (1): 31 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom (31 kB at 123 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom
+[first] Progress (1): 2.2/14 kBProgress (1): 5.0/14 kBProgress (1): 7.7/14 kBProgress (1): 11/14 kB Progress (1): 13/14 kBProgress (1): 14 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom (14 kB at 58 kB/s)
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api/2.10.0.1189/sonar-scanner-api-2.10.0.1189.jar
+[first] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+[first] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[first] Progress (1): 2.8/28 kBProgress (1): 5.5/28 kBProgress (1): 8.3/28 kBProgress (1): 11/28 kB Progress (1): 14/28 kBProgress (1): 16/28 kBProgress (1): 19/28 kBProgress (1): 22/28 kBProgress (1): 25/28 kBProgress (1): 27/28 kBProgress (1): 28 kB   Progress (2): 28 kB | 2.2/245 kBProgress (2): 28 kB | 5.0/245 kBProgress (2): 28 kB | 7.7/245 kBProgress (2): 28 kB | 10/245 kB Progress (2): 28 kB | 13/245 kBProgress (2): 28 kB | 16/245 kBProgress (2): 28 kB | 19/245 kBProgress (2): 28 kB | 21/245 kBProgress (2): 28 kB | 24/245 kBProgress (2): 28 kB | 27/245 kBProgress (2): 28 kB | 30/245 kBProgress (2): 28 kB | 32/245 kBProgress (2): 28 kB | 36/245 kBProgress (2): 28 kB | 40/245 kBProgress (2): 28 kB | 45/245 kBProgress (2): 28 kB | 49/245 kBProgress (2): 28 kB | 53/245 kBProgress (2): 28 kB | 57/245 kBProgress (2): 28 kB | 61/245 kBProgress (2): 28 kB | 65/245 kBProgress (2): 28 kB | 69/245 kBProgress (2): 28 kB | 73/245 kBProgress (2): 28 kB | 77/245 kBProgress (2): 28 kB | 81/245 kBProgress (2): 28 kB | 85/245 kBProgress (2): 28 kB | 90/245 kBProgress (2): 28 kB | 94/245 kBProgress (2): 28 kB | 98/245 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar (28 kB at 105 kB/s)
+[first] Progress (1): 102/245 kBProgress (1): 106/245 kBProgress (1): 110/245 kBProgress (1): 114/245 kBProgress (1): 118/245 kBProgress (1): 122/245 kBProgress (1): 126/245 kBProgress (1): 131/245 kBProgress (1): 135/245 kBProgress (1): 139/245 kBProgress (1): 143/245 kBProgress (1): 147/245 kBProgress (1): 151/245 kBProgress (1): 155/245 kBProgress (1): 159/245 kBProgress (1): 163/245 kBProgress (1): 167/245 kBProgress (1): 171/245 kBProgress (1): 176/245 kBProgress (1): 180/245 kBProgress (1): 184/245 kBProgress (1): 188/245 kBProgress (1): 192/245 kBProgress (1): 196/245 kBProgress (1): 200/245 kBProgress (1): 204/245 kBProgress (1): 208/245 kBProgress (1): 212/245 kB[first] Progress (2): 212/245 kB | 2.8/13 kBProgress (2): 212/245 kB | 5.5/13 kBProgress (2): 212/245 kB | 8.3/13 kBProgress (2): 212/245 kB | 11/13 kB Progress (3): 212/245 kB | 11/13 kB | 2.2/582 kBProgress (3): 212/245 kB | 11/13 kB | 5.0/582 kBProgress (3): 212/245 kB | 11/13 kB | 7.7/582 kBProgress (3): 212/245 kB | 11/13 kB | 10/582 kB Progress (3): 212/245 kB | 11/13 kB | 13/582 kBProgress (4): 212/245 kB | 11/13 kB | 13/582 kB | 2.8/284 kBProgress (4): 212/245 kB | 11/13 kB | 13/582 kB | 5.5/284 kBProgress (4): 212/245 kB | 11/13 kB | 13/582 kB | 8.3/284 kBProgress (4): 212/245 kB | 11/13 kB | 13/582 kB | 11/284 kB Progress (4): 217/245 kB | 11/13 kB | 13/582 kB | 11/284 kBProgress (4): 221/245 kB | 11/13 kB | 13/582 kB | 11/284 kBProgress (4): 225/245 kB | 11/13 kB | 13/582 kB | 11/284 kBProgress (4): 229/245 kB | 11/13 kB | 13/582 kB | 11/284 kBProgress (4): 233/245 kB | 11/13 kB | 13/582 kB | 11/284 kBProgress (4): 237/245 kB | 11/13 kB | 13/582 kB | 11/284 kBProgress (4): 241/245 kB | 11/13 kB | 13/582 kB | 11/284 kBProgress (4): 245 kB | 11/13 kB | 13/582 kB | 11/284 kB    Progress (4): 245 kB | 13 kB | 13/582 kB | 11/284 kB   Progress (4): 245 kB | 13 kB | 16/582 kB | 11/284 kBProgress (4): 245 kB | 13 kB | 19/582 kB | 11/284 kBProgress (4): 245 kB | 13 kB | 21/582 kB | 11/284 kBProgress (4): 245 kB | 13 kB | 24/582 kB | 11/284 kBProgress (4): 245 kB | 13 kB | 27/582 kB | 11/284 kBProgress (4): 245 kB | 13 kB | 30/582 kB | 11/284 kBProgress (4): 245 kB | 13 kB | 32/582 kB | 11/284 kBProgress (4): 245 kB | 13 kB | 32/582 kB | 14/284 kBProgress (4): 245 kB | 13 kB | 32/582 kB | 16/284 kBProgress (4): 245 kB | 13 kB | 32/582 kB | 19/284 kBProgress (4): 245 kB | 13 kB | 32/582 kB | 22/284 kBProgress (4): 245 kB | 13 kB | 32/582 kB | 25/284 kBProgress (4): 245 kB | 13 kB | 32/582 kB | 27/284 kBProgress (4): 245 kB | 13 kB | 32/582 kB | 30/284 kBProgress (4): 245 kB | 13 kB | 32/582 kB | 33/284 kB                                                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar (245 kB at 484 kB/s)
+[first] Progress (3): 13 kB | 36/582 kB | 33/284 kBProgress (3): 13 kB | 40/582 kB | 33/284 kBProgress (3): 13 kB | 45/582 kB | 33/284 kBProgress (3): 13 kB | 49/582 kB | 33/284 kBProgress (3): 13 kB | 53/582 kB | 33/284 kBProgress (3): 13 kB | 57/582 kB | 33/284 kBProgress (3): 13 kB | 61/582 kB | 33/284 kBProgress (3): 13 kB | 65/582 kB | 33/284 kBProgress (3): 13 kB | 69/582 kB | 33/284 kBProgress (3): 13 kB | 73/582 kB | 33/284 kBProgress (3): 13 kB | 77/582 kB | 33/284 kBProgress (3): 13 kB | 81/582 kB | 33/284 kBProgress (3): 13 kB | 85/582 kB | 33/284 kBProgress (3): 13 kB | 90/582 kB | 33/284 kBProgress (3): 13 kB | 94/582 kB | 33/284 kBProgress (3): 13 kB | 98/582 kB | 33/284 kB                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar (13 kB at 22 kB/s)
+[first] Progress (2): 98/582 kB | 37/284 kBProgress (2): 98/582 kB | 41/284 kBProgress (2): 98/582 kB | 45/284 kBProgress (2): 98/582 kB | 49/284 kBProgress (2): 98/582 kB | 53/284 kBProgress (2): 98/582 kB | 57/284 kBProgress (2): 98/582 kB | 61/284 kBProgress (2): 98/582 kB | 66/284 kBProgress (2): 98/582 kB | 70/284 kBProgress (2): 98/582 kB | 74/284 kBProgress (2): 98/582 kB | 78/284 kBProgress (2): 98/582 kB | 82/284 kBProgress (2): 102/582 kB | 82/284 kBProgress (2): 106/582 kB | 82/284 kBProgress (2): 110/582 kB | 82/284 kBProgress (2): 114/582 kB | 82/284 kBProgress (2): 118/582 kB | 82/284 kBProgress (2): 122/582 kB | 82/284 kBProgress (2): 126/582 kB | 82/284 kBProgress (2): 131/582 kB | 82/284 kBProgress (2): 135/582 kB | 82/284 kBProgress (2): 139/582 kB | 82/284 kBProgress (2): 143/582 kB | 82/284 kBProgress (2): 147/582 kB | 82/284 kBProgress (2): 151/582 kB | 82/284 kBProgress (2): 155/582 kB | 82/284 kBProgress (2): 159/582 kB | 82/284 kBProgress (2): 163/582 kB | 82/284 kBProgress (2): 167/582 kB | 82/284 kBProgress (2): 171/582 kB | 82/284 kBProgress (2): 176/582 kB | 82/284 kBProgress (2): 180/582 kB | 82/284 kBProgress (2): 184/582 kB | 82/284 kBProgress (2): 188/582 kB | 82/284 kBProgress (2): 192/582 kB | 82/284 kBProgress (2): 196/582 kB | 82/284 kBProgress (2): 196/582 kB | 86/284 kBProgress (2): 196/582 kB | 90/284 kBProgress (2): 196/582 kB | 94/284 kBProgress (2): 196/582 kB | 98/284 kBProgress (2): 196/582 kB | 102/284 kBProgress (2): 196/582 kB | 106/284 kBProgress (2): 196/582 kB | 111/284 kBProgress (2): 196/582 kB | 115/284 kBProgress (2): 196/582 kB | 119/284 kBProgress (2): 196/582 kB | 123/284 kBProgress (2): 196/582 kB | 127/284 kBProgress (2): 196/582 kB | 131/284 kBProgress (2): 196/582 kB | 135/284 kBProgress (2): 196/582 kB | 139/284 kBProgress (2): 196/582 kB | 143/284 kBProgress (2): 196/582 kB | 147/284 kBProgress (2): 196/582 kB | 152/284 kBProgress (2): 196/582 kB | 156/284 kBProgress (2): 196/582 kB | 160/284 kBProgress (2): 196/582 kB | 164/284 kBProgress (2): 196/582 kB | 168/284 kBProgress (2): 196/582 kB | 172/284 kBProgress (2): 196/582 kB | 176/284 kBProgress (2): 196/582 kB | 180/284 kBProgress (2): 200/582 kB | 180/284 kBProgress (2): 204/582 kB | 180/284 kBProgress (2): 208/582 kB | 180/284 kBProgress (2): 212/582 kB | 180/284 kBProgress (2): 217/582 kB | 180/284 kBProgress (2): 221/582 kB | 180/284 kBProgress (2): 225/582 kB | 180/284 kBProgress (2): 229/582 kB | 180/284 kBProgress (2): 233/582 kB | 180/284 kBProgress (2): 237/582 kB | 180/284 kBProgress (2): 241/582 kB | 180/284 kBProgress (2): 245/582 kB | 180/284 kBProgress (2): 249/582 kB | 180/284 kBProgress (2): 253/582 kB | 180/284 kBProgress (2): 258/582 kB | 180/284 kBProgress (2): 262/582 kB | 180/284 kBProgress (2): 262/582 kB | 184/284 kBProgress (2): 262/582 kB | 188/284 kBProgress (2): 262/582 kB | 193/284 kBProgress (2): 262/582 kB | 197/284 kBProgress (2): 262/582 kB | 201/284 kBProgress (2): 262/582 kB | 205/284 kBProgress (2): 262/582 kB | 209/284 kBProgress (2): 262/582 kB | 213/284 kBProgress (2): 262/582 kB | 217/284 kBProgress (2): 262/582 kB | 221/284 kBProgress (2): 262/582 kB | 225/284 kBProgress (2): 262/582 kB | 229/284 kBProgress (2): 262/582 kB | 233/284 kBProgress (2): 262/582 kB | 238/284 kBProgress (2): 262/582 kB | 242/284 kBProgress (2): 262/582 kB | 246/284 kBProgress (2): 262/582 kB | 250/284 kBProgress (2): 262/582 kB | 254/284 kBProgress (2): 262/582 kB | 258/284 kBProgress (2): 262/582 kB | 262/284 kBProgress (2): 262/582 kB | 266/284 kBProgress (2): 262/582 kB | 270/284 kBProgress (2): 262/582 kB | 274/284 kBProgress (2): 262/582 kB | 276/284 kBProgress (2): 262/582 kB | 280/284 kBProgress (2): 262/582 kB | 284 kB    Progress (2): 266/582 kB | 284 kBProgress (2): 270/582 kB | 284 kBProgress (2): 274/582 kB | 284 kBProgress (2): 278/582 kB | 284 kBProgress (2): 282/582 kB | 284 kBProgress (2): 286/582 kB | 284 kBProgress (2): 290/582 kB | 284 kBProgress (2): 294/582 kB | 284 kBProgress (2): 298/582 kB | 284 kBProgress (2): 303/582 kB | 284 kBProgress (2): 307/582 kB | 284 kBProgress (2): 311/582 kB | 284 kBProgress (2): 315/582 kB | 284 kBProgress (2): 319/582 kB | 284 kBProgress (2): 323/582 kB | 284 kBProgress (2): 327/582 kB | 284 kBProgress (2): 331/582 kB | 284 kBProgress (2): 335/582 kB | 284 kBProgress (2): 339/582 kB | 284 kBProgress (2): 344/582 kB | 284 kBProgress (2): 348/582 kB | 284 kBProgress (2): 352/582 kB | 284 kBProgress (2): 356/582 kB | 284 kBProgress (2): 360/582 kB | 284 kBProgress (2): 364/582 kB | 284 kBProgress (2): 368/582 kB | 284 kBProgress (2): 372/582 kB | 284 kBProgress (2): 376/582 kB | 284 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar (284 kB at 279 kB/s)
+[first] Progress (1): 380/582 kBProgress (1): 384/582 kBProgress (1): 389/582 kBProgress (1): 393/582 kBProgress (1): 397/582 kBProgress (1): 401/582 kBProgress (1): 405/582 kBProgress (1): 409/582 kBProgress (1): 413/582 kBProgress (1): 417/582 kBProgress (1): 421/582 kBProgress (1): 425/582 kBProgress (1): 430/582 kBProgress (1): 434/582 kBProgress (1): 438/582 kBProgress (1): 442/582 kBProgress (1): 446/582 kBProgress (1): 450/582 kBProgress (1): 454/582 kBProgress (1): 458/582 kBProgress (1): 462/582 kBProgress (1): 466/582 kBProgress (1): 470/582 kBProgress (1): 475/582 kBProgress (1): 479/582 kBProgress (1): 483/582 kBProgress (1): 487/582 kBProgress (1): 491/582 kBProgress (1): 495/582 kBProgress (1): 499/582 kBProgress (1): 503/582 kBProgress (1): 507/582 kBProgress (1): 511/582 kBProgress (1): 516/582 kBProgress (1): 520/582 kBProgress (1): 524/582 kBProgress (1): 528/582 kBProgress (1): 532/582 kBProgress (1): 536/582 kBProgress (1): 540/582 kBProgress (1): 544/582 kBProgress (1): 548/582 kBProgress (1): 552/582 kBProgress (1): 557/582 kBProgress (1): 561/582 kBProgress (1): 565/582 kBProgress (1): 569/582 kBProgress (1): 573/582 kBProgress (1): 577/582 kBProgress (1): 581/582 kBProgress (1): 582 kB    [first]                     Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api/2.10.0.1189/sonar-scanner-api-2.10.0.1189.jar (582 kB at 449 kB/s)
+[first] [[1;34mINFO[m] User cache: /root/.sonar/cache
+[first] [[1;34mINFO[m] SonarQube version: 7.4.0
+[first] [[1;34mINFO[m] Default locale: "en", source code encoding: "UTF-8" (analysis is platform dependent)
+[first] [[1;34mINFO[m] Publish mode
+[first] [[1;34mINFO[m] Load global settings
+[first] [[1;34mINFO[m] Load global settings (done) | time=744ms
+[first] [[1;34mINFO[m] Server id: BD367519-AWHW8ct9-T_TB3XqouNu
+[first] [[1;34mINFO[m] User cache: /root/.sonar/cache
+[first] [[1;34mINFO[m] Load/download plugins
+[first] [[1;34mINFO[m] Load plugins index
+[first] [[1;34mINFO[m] Load plugins index (done) | time=229ms
+[first] [[1;34mINFO[m] Load/download plugins (done) | time=49896ms
+[first] [[1;34mINFO[m] Loaded core extensions: branch-scanner
+[first] [[1;34mINFO[m] Process project properties
+[first] [[1;34mINFO[m] Load project branches
+[first] [[1;34mINFO[m] Load project branches (done) | time=129ms
+[first] [[1;34mINFO[m] Load project pull requests
+[first] [[1;34mINFO[m] Load project pull requests (done) | time=120ms
+[first] [[1;34mINFO[m] Load branch configuration
+[first] [[1;34mINFO[m] Load branch configuration (done) | time=9ms
+[first] [[1;34mINFO[m] Load project repositories
+[first] [[1;34mINFO[m] Load project repositories (done) | time=271ms
+[first] [[1;34mINFO[m] Execute project builders
+[first] [[1;34mINFO[m] Execute project builders (done) | time=1ms
+[first] [[1;34mINFO[m] Load quality profiles
+[first] [[1;34mINFO[m] Load quality profiles (done) | time=157ms
+[first] [[1;34mINFO[m] Load active rules
+[first] [[1;34mINFO[m] Load active rules (done) | time=3319ms
+[first] [[1;34mINFO[m] Load metrics repository
+[first] [[1;34mINFO[m] Load metrics repository (done) | time=153ms
+[first] [[1;34mINFO[m] Project key: DevopsDevOrg_Repo1
+[first] [[1;34mINFO[m] Project base dir: /var/Calculator-pipeline
+[first] [[1;34mINFO[m] Organization key: devopsdevorg-github
+[first] [[1;34mINFO[m] -------------  Scan CalculatorWeb Maven Webapp
+[first] [[1;34mINFO[m] Base dir: /var/Calculator-pipeline
+[first] [[1;34mINFO[m] Working dir: /var/Calculator-pipeline/target/sonar
+[first] [[1;34mINFO[m] Source paths: src/main/webapp, pom.xml, src/main/java
+[first] [[1;34mINFO[m] Test paths: src/test/java
+[first] [[1;34mINFO[m] Source encoding: UTF-8, default locale: en
+[first] [[1;34mINFO[m] Load server rules
+[first] [[1;34mINFO[m] Load server rules (done) | time=958ms
+[first] [[1;33mWARNING[m] Property 'sonar.abap.file.suffixes' is not declared as multi-values/property set but was read using 'getStringArray' method. The SonarQube plugin declaring this property should be updated.
+[first] [[1;34mINFO[m] Index files
+[first] [[1;34mINFO[m] 6 files indexed
+[first] [[1;34mINFO[m] Quality profile for java: Sonar way
+[first] [[1;34mINFO[m] Quality profile for web: Sonar way
+[first] [[1;34mINFO[m] Quality profile for xml: Sonar way
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 2,373ms last 8 cycles average is 296ms
+Resuming build at Tue Oct 23 06:35:15 UTC 2018 after Jenkins restart
+Waiting to resume part of Calculator-pipeline #5: ???
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 2,373ms last 8 cycles average is 296ms
+[first] sh: 1: Cannot fork
+Ready to run at Tue Oct 23 06:35:16 UTC 2018
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 15,645ms last 8 cycles average is 1,955ms
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 8,718ms last 8 cycles average is 1,089ms
+Aborted by [8mha:////4D54hLzVxf8lSFzgZgY8s+XqD8jl3MBRLZYNs5GItQGkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+[first] Sending interrupt signal to process
+Aborted by [8mha:////4D54hLzVxf8lSFzgZgY8s+XqD8jl3MBRLZYNs5GItQGkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+[first] Sending interrupt signal to process
+[first] After 10s process did not stop
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] }
+[first] Failed in branch first
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // parallel
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: ABORTED

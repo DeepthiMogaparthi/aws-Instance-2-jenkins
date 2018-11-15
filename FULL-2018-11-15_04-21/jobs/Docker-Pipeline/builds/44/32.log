@@ -1,0 +1,4 @@
+[Docker-Pipeline] Running shell script
++ docker run -p 9090:8080 -d --name=44 deepthimogaparthi1207/44:1.0
+c54767a672b19bd09fae45801a8d9cca124d755fc9957ee0bd6e784ed315f341
+docker: Error response from daemon: driver failed programming external connectivity on endpoint 44 (8bd3339c4d845cc285ea3eb25f4cd50265ec36b4b2f415f7405d551b0f22e82f): Bind for 0.0.0.0:9090 failed: port is already allocated.

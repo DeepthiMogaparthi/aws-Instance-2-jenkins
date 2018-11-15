@@ -1,0 +1,15 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/DevopsDevOrg/Repo1.git # timeout=10
+Fetching upstream changes from https://github.com/DevopsDevOrg/Repo1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/DevopsDevOrg/Repo1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/test3^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/test3^{commit} # timeout=10
+Checking out Revision b0e6ab76024b62364b5776ca815d4e9c44c98797 (refs/remotes/origin/test3)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b0e6ab76024b62364b5776ca815d4e9c44c98797
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b test3 b0e6ab76024b62364b5776ca815d4e9c44c98797
+Commit message: "Update sample.properties"
+First time build. Skipping changelog.

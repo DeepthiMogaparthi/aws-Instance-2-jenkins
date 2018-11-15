@@ -1,0 +1,3 @@
+[Docker-Pipeline] Running shell script
++ docker login -u deepthimogaparthi --password-stdin check
+Error: Cannot perform an interactive login from a non TTY device

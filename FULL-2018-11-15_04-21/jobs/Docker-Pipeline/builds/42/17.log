@@ -1,0 +1,9 @@
+[Docker-Pipeline] Running shell script
++ docker build -t deepthimogaparthi1207/dev-test1:1.0 .
+Sending build context to Docker daemon  205.8kB
+Step 1/2 : FROM tomcat:8
+ ---> 41a54fe1f79d
+Step 2/2 : COPY target/*.war /usr/local/tomcat/webapps/
+ ---> c85e26ca8eb2
+Successfully built c85e26ca8eb2
+Successfully tagged deepthimogaparthi1207/dev-test1:1.0

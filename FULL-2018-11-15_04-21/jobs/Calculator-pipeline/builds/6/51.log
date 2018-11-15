@@ -1,0 +1,5 @@
+[Calculator-pipeline@2] Running shell script
++ docker ps -aq
++ docker stop 0b9c570fcd88 357d5ea8dcc4
+0b9c570fcd88
+357d5ea8dcc4

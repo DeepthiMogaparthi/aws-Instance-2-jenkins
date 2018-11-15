@@ -1,0 +1,9 @@
+[Docker-Pipeline] Running shell script
++ docker build -t deepthimogaparthi1207/repo49:49 .
+Sending build context to Docker daemon  209.4kB
+Step 1/2 : FROM tomcat:8
+ ---> 41a54fe1f79d
+Step 2/2 : COPY target/*.war /usr/local/tomcat/webapps/
+ ---> ed66b306d195
+Successfully built ed66b306d195
+Successfully tagged deepthimogaparthi1207/repo49:49

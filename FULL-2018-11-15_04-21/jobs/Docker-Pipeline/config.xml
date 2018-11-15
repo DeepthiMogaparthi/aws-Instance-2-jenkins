@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.25">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@1.29">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.57">
+    <script>node
+{
+    stage (&apos;git checkout&apos;)
+    {
+        git &apos;https://github.com/DeepthiMogaparthi/FinalCalci.git&apos;
+    }
+   stage(&apos;MVN Package&apos;)
+    {  
+        sh &apos;mvn clean package&apos;
+    }
+    stage(&apos;Build Docker Image&apos;)
+    {
+        sh &apos;docker build -t deepthimogaparthi1207/repo:${BUILD_NUMBER}.0 .&apos;
+    }
+    stage(&apos;Upload Image to DockerHub&apos;)
+    {
+            withCredentials([string(credentialsId: &apos;docker-trial&apos;, variable: &apos;dockerHubpwd&apos;)]) {
+          sh &quot;docker login -u deepthimogaparthi1207 -p ${dockerHubpwd}&quot;
+            }
+        sh &apos;docker push deepthimogaparthi1207/repo:${BUILD_NUMBER}.0&apos;
+    }
+    stage (&apos;deploy container to dev&apos;)
+    {
+        sh &apos;docker run -p 9090:8080 -d --name=docker-repo${BUILD_NUMBER} deepthimogaparthi1207/repo:${BUILD_NUMBER}.0&apos;
+    }
+       
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

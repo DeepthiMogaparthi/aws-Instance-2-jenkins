@@ -1,0 +1,38 @@
+[Docker-Pipeline] Running shell script
++ docker push deepthimogaparthi1207/dev-test1:1.0
+The push refers to repository [docker.io/deepthimogaparthi1207/dev-test1]
+5583bd10cddf: Preparing
+2eda9150fd94: Preparing
+4b9367441797: Preparing
+b43708ebead1: Preparing
+f3a3749a49fd: Preparing
+00fc55ade1b8: Preparing
+034f354793a4: Preparing
+a8d68e0ce4e3: Preparing
+e0caf225fa20: Preparing
+da22ca4fb8f3: Preparing
+2eb1c9bfc5ea: Preparing
+0b703c74a09c: Preparing
+b28ef0b6fef8: Preparing
+00fc55ade1b8: Waiting
+034f354793a4: Waiting
+a8d68e0ce4e3: Waiting
+e0caf225fa20: Waiting
+da22ca4fb8f3: Waiting
+2eb1c9bfc5ea: Waiting
+0b703c74a09c: Waiting
+b28ef0b6fef8: Waiting
+f3a3749a49fd: Layer already exists
+4b9367441797: Layer already exists
+2eda9150fd94: Layer already exists
+b43708ebead1: Layer already exists
+a8d68e0ce4e3: Layer already exists
+034f354793a4: Layer already exists
+e0caf225fa20: Layer already exists
+00fc55ade1b8: Layer already exists
+da22ca4fb8f3: Layer already exists
+2eb1c9bfc5ea: Layer already exists
+b28ef0b6fef8: Layer already exists
+0b703c74a09c: Layer already exists
+5583bd10cddf: Pushed
+1.0: digest: sha256:df5140c958d1972dd0a7d5fe695d76922529a050a01a855ce2bbac555b3b60cc size: 3044

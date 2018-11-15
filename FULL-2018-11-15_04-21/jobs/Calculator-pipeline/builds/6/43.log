@@ -1,0 +1,2 @@
+[Calculator-pipeline@2] Running shell script
++ docker ps -aq

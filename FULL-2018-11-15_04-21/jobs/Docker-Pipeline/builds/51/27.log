@@ -1,0 +1,38 @@
+[Docker-Pipeline] Running shell script
++ docker push deepthimogaparthi1207/repo:51.0
+The push refers to repository [docker.io/deepthimogaparthi1207/repo]
+f4a2d2f0359f: Preparing
+2eda9150fd94: Preparing
+4b9367441797: Preparing
+b43708ebead1: Preparing
+f3a3749a49fd: Preparing
+00fc55ade1b8: Preparing
+034f354793a4: Preparing
+a8d68e0ce4e3: Preparing
+e0caf225fa20: Preparing
+da22ca4fb8f3: Preparing
+2eb1c9bfc5ea: Preparing
+0b703c74a09c: Preparing
+b28ef0b6fef8: Preparing
+00fc55ade1b8: Waiting
+034f354793a4: Waiting
+a8d68e0ce4e3: Waiting
+e0caf225fa20: Waiting
+da22ca4fb8f3: Waiting
+2eb1c9bfc5ea: Waiting
+0b703c74a09c: Waiting
+b28ef0b6fef8: Waiting
+f4a2d2f0359f: Pushed
+2eda9150fd94: Pushed
+f3a3749a49fd: Pushed
+b43708ebead1: Pushed
+a8d68e0ce4e3: Pushed
+4b9367441797: Pushed
+e0caf225fa20: Pushed
+00fc55ade1b8: Pushed
+da22ca4fb8f3: Pushed
+2eb1c9bfc5ea: Pushed
+034f354793a4: Pushed
+0b703c74a09c: Pushed
+b28ef0b6fef8: Pushed
+51.0: digest: sha256:b99c4fe836d9c2795e6eabd6c5c932007543f8db5b17b04562a7ccdeba1938d9 size: 3044

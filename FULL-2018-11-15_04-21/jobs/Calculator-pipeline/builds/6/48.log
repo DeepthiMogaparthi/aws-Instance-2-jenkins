@@ -1,0 +1,39 @@
+[Calculator-pipeline@2] Running shell script
++ docker run -p 8888:8080 -d --name=calculatorrepoDEV 9730597302/calculatorrepo:0.6
+Unable to find image '9730597302/calculatorrepo:0.6' locally
+0.6: Pulling from 9730597302/calculatorrepo
+4fe2ade4980c: Pulling fs layer
+6fc58a8d4ae4: Pulling fs layer
+d3e6d7e9702a: Pulling fs layer
+ca2654d3b588: Pulling fs layer
+7218d8ec33e2: Pulling fs layer
+74d387f70464: Pulling fs layer
+c32ce0b05e78: Pulling fs layer
+ca2654d3b588: Waiting
+7218d8ec33e2: Waiting
+74d387f70464: Waiting
+c32ce0b05e78: Waiting
+6fc58a8d4ae4: Verifying Checksum
+6fc58a8d4ae4: Download complete
+4fe2ade4980c: Verifying Checksum
+4fe2ade4980c: Download complete
+4fe2ade4980c: Pull complete
+6fc58a8d4ae4: Pull complete
+ca2654d3b588: Verifying Checksum
+ca2654d3b588: Download complete
+7218d8ec33e2: Verifying Checksum
+7218d8ec33e2: Download complete
+74d387f70464: Verifying Checksum
+74d387f70464: Download complete
+d3e6d7e9702a: Verifying Checksum
+d3e6d7e9702a: Download complete
+c32ce0b05e78: Verifying Checksum
+c32ce0b05e78: Download complete
+d3e6d7e9702a: Pull complete
+ca2654d3b588: Pull complete
+7218d8ec33e2: Pull complete
+74d387f70464: Pull complete
+c32ce0b05e78: Pull complete
+Digest: sha256:967ff0513ab168b34cec3c9d7b57f459b08bae2e0d42a79526a5d8e30f0a1722
+Status: Downloaded newer image for 9730597302/calculatorrepo:0.6
+357d5ea8dcc406911a5e01c9555967e0c72758ecd16bd2beb1d7b6f04652e4c8

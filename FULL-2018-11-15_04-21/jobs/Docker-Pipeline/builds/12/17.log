@@ -1,0 +1,12 @@
+[Docker-Pipeline] Running shell script
++ docker build -t deepthimogaparthi/dev-test1:1.0 .
+Sending build context to Docker daemon    192kB
+Step 1/2 : FROM tomcat:8
+8: Pulling from library/tomcat
+Digest: sha256:8d120de5102cc12310de741299e9bf6f39d2d674663f2ce4e6f0f181ccfeebe7
+Status: Downloaded newer image for tomcat:8
+ ---> 41a54fe1f79d
+Step 2/2 : COPY target/*.war /usr/local/tomcat/webapps/
+ ---> 33828e24892e
+Successfully built 33828e24892e
+Successfully tagged deepthimogaparthi/dev-test1:1.0

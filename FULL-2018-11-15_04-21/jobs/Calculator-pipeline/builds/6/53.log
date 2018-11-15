@@ -1,0 +1,3 @@
+[Calculator-pipeline@2] Running shell script
++ docker run -p 8888:8080 -d --name=calculatorrepoDEV 9730597302/calculatorrepo:0.6
+2a272fd8ee8179f616c102898115405bcb078c50aa235937a8eb7fc22ea84cac

@@ -1,0 +1,173 @@
+Started by user [8mha:////4D54hLzVxf8lSFzgZgY8s+XqD8jl3MBRLZYNs5GItQGkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4AQatsHzbmXOJvcy0Fh2RlJkE1Zwbs1Y/kfu82w+36GIAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/Docker-Pipeline
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (git checkout)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/akshaytiwari29/FinalCalci.git # timeout=10
+Fetching upstream changes from https://github.com/akshaytiwari29/FinalCalci.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/akshaytiwari29/FinalCalci.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8f44f4fd672a7c89af5b2d5e06a76d437299fb33 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8f44f4fd672a7c89af5b2d5e06a76d437299fb33
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 8f44f4fd672a7c89af5b2d5e06a76d437299fb33
+Commit message: "Create file1"
+ > git rev-list --no-walk 8f44f4fd672a7c89af5b2d5e06a76d437299fb33 # timeout=10
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (MVN Package)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[Docker-Pipeline] Running shell script
++ mvn clean package
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding CalculatorWeb Maven Webapp 1-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mDEV_CALCULATOR[0;1m ---[m
+[[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/Docker-Pipeline/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mDEV_CALCULATOR[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Docker-Pipeline/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mDEV_CALCULATOR[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 2 source files to /var/lib/jenkins/workspace/Docker-Pipeline/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mDEV_CALCULATOR[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Docker-Pipeline/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mDEV_CALCULATOR[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/Docker-Pipeline/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mDEV_CALCULATOR[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /var/lib/jenkins/workspace/Docker-Pipeline/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running CalculatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 sec
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.2:war[m [1m(default-war)[m @ [36mDEV_CALCULATOR[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [DEV_CALCULATOR] in [/var/lib/jenkins/workspace/Docker-Pipeline/target/Calculator_dev]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp resources [/var/lib/jenkins/workspace/Docker-Pipeline/src/main/webapp]
+[[1;34mINFO[m] Webapp assembled in [38 msecs]
+[[1;34mINFO[m] Building war: /var/lib/jenkins/workspace/Docker-Pipeline/target/Calculator_dev.war
+[[1;34mINFO[m] WEB-INF/web.xml already added, skipping
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 4.515 s
+[[1;34mINFO[m] Finished at: 2018-10-10T06:18:22Z
+[[1;34mINFO[m] Final Memory: 14M/35M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build Docker Image)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[Docker-Pipeline] Running shell script
++ docker build -t deepthimogaparthi1207/dev-test1:1.0 .
+Sending build context to Docker daemon  203.8kB
+Step 1/2 : FROM tomcat:8
+ ---> 41a54fe1f79d
+Step 2/2 : COPY target/*.war /usr/local/tomcat/webapps/
+ ---> 41f84037bd06
+Successfully built 41f84037bd06
+Successfully tagged deepthimogaparthi1207/dev-test1:1.0
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Upload Image to DockerHub)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withCredentials
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[Docker-Pipeline] Running shell script
++ docker login -u deepthimogaparthi1207 -p ****
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/lib/jenkins/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withCredentials
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[Docker-Pipeline] Running shell script
++ docker push deepthimogaparthi1207/dev-test1:1.0
+The push refers to repository [docker.io/deepthimogaparthi1207/dev-test1]
+980b48baa4ef: Preparing
+2eda9150fd94: Preparing
+4b9367441797: Preparing
+b43708ebead1: Preparing
+f3a3749a49fd: Preparing
+00fc55ade1b8: Preparing
+034f354793a4: Preparing
+a8d68e0ce4e3: Preparing
+e0caf225fa20: Preparing
+da22ca4fb8f3: Preparing
+2eb1c9bfc5ea: Preparing
+0b703c74a09c: Preparing
+b28ef0b6fef8: Preparing
+00fc55ade1b8: Waiting
+034f354793a4: Waiting
+a8d68e0ce4e3: Waiting
+e0caf225fa20: Waiting
+da22ca4fb8f3: Waiting
+2eb1c9bfc5ea: Waiting
+0b703c74a09c: Waiting
+b28ef0b6fef8: Waiting
+2eda9150fd94: Mounted from 9730597302/dev-test1
+4b9367441797: Mounted from 9730597302/dev-test1
+b43708ebead1: Mounted from 9730597302/dev-test1
+f3a3749a49fd: Mounted from 9730597302/dev-test1
+980b48baa4ef: Pushed
+a8d68e0ce4e3: Mounted from 9730597302/dev-test1
+034f354793a4: Mounted from 9730597302/dev-test1
+00fc55ade1b8: Mounted from 9730597302/dev-test1
+e0caf225fa20: Mounted from 9730597302/dev-test1
+2eb1c9bfc5ea: Mounted from 9730597302/dev-test1
+da22ca4fb8f3: Mounted from 9730597302/dev-test1
+0b703c74a09c: Mounted from 9730597302/dev-test1
+b28ef0b6fef8: Mounted from 9730597302/dev-test1
+1.0: digest: sha256:27df2e1a7f1c661382db6ae85287fe34d2df5ed717c80e2352111e9874074b4c size: 3044
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (deploy container to dev)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[Docker-Pipeline] Running shell script
++ docker run -p 9090:8080 --name=dev-test111 deepthimogaparthi1207/dev-test1:1.0
+docker: Error response from daemon: Conflict. The container name "/dev-test111" is already in use by container "bf153510fa79ff52e592b4928f539eff16fe7acc038db05fd27a4fea6e014309". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 125
+Finished: FAILURE

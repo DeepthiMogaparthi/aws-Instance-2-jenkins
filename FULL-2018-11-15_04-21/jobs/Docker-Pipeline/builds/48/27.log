@@ -1,0 +1,38 @@
+[Docker-Pipeline] Running shell script
++ docker push deepthimogaparthi1207/repo48:1.0
+The push refers to repository [docker.io/deepthimogaparthi1207/repo48]
+c40113c8a609: Preparing
+2eda9150fd94: Preparing
+4b9367441797: Preparing
+b43708ebead1: Preparing
+f3a3749a49fd: Preparing
+00fc55ade1b8: Preparing
+034f354793a4: Preparing
+a8d68e0ce4e3: Preparing
+e0caf225fa20: Preparing
+da22ca4fb8f3: Preparing
+2eb1c9bfc5ea: Preparing
+0b703c74a09c: Preparing
+b28ef0b6fef8: Preparing
+00fc55ade1b8: Waiting
+034f354793a4: Waiting
+a8d68e0ce4e3: Waiting
+e0caf225fa20: Waiting
+da22ca4fb8f3: Waiting
+2eb1c9bfc5ea: Waiting
+0b703c74a09c: Waiting
+b28ef0b6fef8: Waiting
+b43708ebead1: Mounted from deepthimogaparthi1207/repo47
+f3a3749a49fd: Mounted from deepthimogaparthi1207/repo47
+2eda9150fd94: Mounted from deepthimogaparthi1207/repo47
+4b9367441797: Mounted from deepthimogaparthi1207/repo47
+c40113c8a609: Pushed
+00fc55ade1b8: Mounted from deepthimogaparthi1207/repo47
+034f354793a4: Mounted from deepthimogaparthi1207/repo47
+e0caf225fa20: Mounted from deepthimogaparthi1207/repo47
+a8d68e0ce4e3: Mounted from deepthimogaparthi1207/repo47
+da22ca4fb8f3: Mounted from deepthimogaparthi1207/repo47
+2eb1c9bfc5ea: Mounted from deepthimogaparthi1207/repo47
+0b703c74a09c: Mounted from deepthimogaparthi1207/repo47
+b28ef0b6fef8: Mounted from deepthimogaparthi1207/repo47
+1.0: digest: sha256:67036c9a1af7a0822a9988fdb9d2f0d00ec86a859392a223c421f5875afdca81 size: 3044

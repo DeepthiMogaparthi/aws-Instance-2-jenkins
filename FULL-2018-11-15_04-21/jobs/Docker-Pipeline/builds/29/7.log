@@ -1,0 +1,16 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/akshaytiwari29/FinalCalci.git # timeout=10
+Fetching upstream changes from https://github.com/akshaytiwari29/FinalCalci.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/akshaytiwari29/FinalCalci.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8f44f4fd672a7c89af5b2d5e06a76d437299fb33 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8f44f4fd672a7c89af5b2d5e06a76d437299fb33
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 8f44f4fd672a7c89af5b2d5e06a76d437299fb33
+Commit message: "Create file1"
+ > git rev-list --no-walk 8f44f4fd672a7c89af5b2d5e06a76d437299fb33 # timeout=10

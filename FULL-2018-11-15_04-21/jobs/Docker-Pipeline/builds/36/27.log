@@ -1,0 +1,38 @@
+[Docker-Pipeline] Running shell script
++ docker push 9730597302/dev-test1:1.0
+The push refers to repository [docker.io/9730597302/dev-test1]
+e580f259cf3d: Preparing
+2eda9150fd94: Preparing
+4b9367441797: Preparing
+b43708ebead1: Preparing
+f3a3749a49fd: Preparing
+00fc55ade1b8: Preparing
+034f354793a4: Preparing
+a8d68e0ce4e3: Preparing
+e0caf225fa20: Preparing
+da22ca4fb8f3: Preparing
+2eb1c9bfc5ea: Preparing
+0b703c74a09c: Preparing
+b28ef0b6fef8: Preparing
+00fc55ade1b8: Waiting
+034f354793a4: Waiting
+a8d68e0ce4e3: Waiting
+e0caf225fa20: Waiting
+da22ca4fb8f3: Waiting
+2eb1c9bfc5ea: Waiting
+0b703c74a09c: Waiting
+b28ef0b6fef8: Waiting
+2eda9150fd94: Pushed
+f3a3749a49fd: Pushed
+b43708ebead1: Pushed
+4b9367441797: Pushed
+a8d68e0ce4e3: Pushed
+00fc55ade1b8: Pushed
+e0caf225fa20: Pushed
+2eb1c9bfc5ea: Mounted from library/maven
+da22ca4fb8f3: Pushed
+e580f259cf3d: Pushed
+0b703c74a09c: Mounted from library/maven
+b28ef0b6fef8: Mounted from library/maven
+034f354793a4: Pushed
+1.0: digest: sha256:a966533400517da84a044d729fd0ed6678547d44f7913989a697fa15fe46211e size: 3044

@@ -1,0 +1,243 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.25">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.12">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@3.9.1">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.7.3">
+              <sha1>857f0177f530d9225604adffafc72a2ec8a5bdfa</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/DevopsDevOrg/Repo1.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.9.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/lib/jenkins/workspace/Calculator-pipeline</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.7">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/DevopsDevOrg/Repo1.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <hudson.tasks.junit.TestResultAction plugin="junit@1.25">
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>2</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>6</totalCount>
+      <healthScaleFactor>1.0</healthScaleFactor>
+      <testData/>
+    </hudson.tasks.junit.TestResultAction>
+    <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.29"/>
+  </actions>
+  <queueId>112</queueId>
+  <timestamp>1540274823072</timestamp>
+  <startTime>1540274823075</startTime>
+  <result>FAILURE</result>
+  <duration>12994</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node {
+    stage(&apos;Cloning source code&apos;)
+    {
+    checkout([$class: &apos;GitSCM&apos;, branches: [[name: &apos;*/master&apos;]], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: &apos;https://github.com/DevopsDevOrg/Repo1.git&apos;]]])
+    }
+
+
+parallel first:{
+    
+stage(&apos;Static code analysis&apos;)
+{
+
+
+  sh &apos;&apos;&apos;sudo scp -r /var/lib/jenkins/workspace/pipeline_docker /var/
+sudo -i
+cd /var/pipeline_docker
+sudo mvn sonar:sonar \\
+  -Dsonar.projectKey=DevopsDevOrg_Repo1 \\
+  -Dsonar.organization=devopsdevorg-github \\
+  -Dsonar.host.url=https://sonarcloud.io \\
+  -Dsonar.login=8d4c67077738cbd8a232200e0c9dc6bff7e06acf&apos;&apos;&apos;          
+}
+
+    },
+    
+second:{
+        
+    
+stage(&apos;Build and Test&apos;)
+{
+     sh &apos;mvn clean package&apos;
+     junit &apos;**/*.xml&apos;
+
+          
+}
+
+}
+
+
+stage(&apos;Docker Stage&apos;)
+{
+     sh &apos;docker build -t deepthimogaparthi1207/repo:${BUILD_NUMBER}.0 .&apos;
+     
+     withCredentials([string(credentialsId: &apos;docker-trial&apos;, variable: &apos;dockerHubpwd&apos;)]) {
+          sh &quot;docker login -u deepthimogaparthi1207 -p ${dockerHubpwd}&quot;
+            }
+        sh &apos;docker push deepthimogaparthi1207/repo:${BUILD_NUMBER}.0&apos;
+}
+stage (&apos;deploy to QA and Dev&apos;)
+{   
+   
+   script {
+      Conatiner_Size = sh(returnStdout: true, script: &apos;docker ps -aq&apos;)
+    }
+     if (Conatiner_Size)
+     { sh &apos;docker stop $(docker ps -aq)&apos;
+     sh &apos;docker rm $(docker ps -aq)&apos;
+     sh &apos;docker run -p 8888:8080 -d --name=calculatorrepoDEV 9730597302/calculatorrepo:0.${BUILD_NUMBER}&apos;
+      sh &apos;docker run -p 8090:8080 -d --name=calculatorrepoQA 9730597302/calculatorrepo:0.${BUILD_NUMBER}&apos;
+            
+        }else
+        {
+             sh &apos;docker run -p 8888:8080 -d --name=calculatorrepoDEV 9730597302/calculatorrepo:0.${BUILD_NUMBER}&apos;
+      sh &apos;docker run -p 8090:8080 -d --name=calculatorrepoQA 9730597302/calculatorrepo:0.${BUILD_NUMBER}&apos;
+           
+        }
+   
+     echo &apos;docker ps -aq&apos;
+     sh &apos;docker stop $(docker ps -aq)&apos;
+     sh &apos;docker rm $(docker ps -aq)&apos;
+     sh &apos;docker run -p 8888:8080 -d --name=calculatorrepoDEV 9730597302/calculatorrepo:0.${BUILD_NUMBER}&apos;
+      sh &apos;docker run -p 8090:8080 -d --name=calculatorrepoQA 9730597302/calculatorrepo:0.${BUILD_NUMBER}&apos;
+     
+     }
+     
+     stage (&apos;QA_SELINIUM&apos;)
+    {
+
+     // build &apos;seleniumTest&apos;
+    
+     
+    // some block
+    
+    
+                git branch: &apos;test3&apos;, url: &apos;https://github.com/DevopsDevOrg/Repo1.git&apos;
+                sh &apos;mvn verify&apos;
+                step([$class: &apos;Publisher&apos;, reportFilenamePattern: &apos;**/testng-results.xml&apos;]) 
+    
+      
+
+    
+              
+
+         
+
+    }
+
+       stage(&apos;Approval&apos;)
+    {
+        input &apos;Want To Deploy To Production ?&apos;
+    }
+    
+    stage (&apos;deploy to prod&apos;)
+     {
+          sh &apos;docker run -p 9090:8080 -d --name=calculatorrepoPROD 9730597302/calculatorrepo:0.${BUILD_NUMBER}&apos;
+     }
+        
+     
+
+}
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>183456971</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>137159394</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>516059233</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>150413061</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>74637830</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>30</iota>
+    <head>1:30</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.1">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/DevopsDevOrg/Repo1.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>*/master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="list"/>
+        <extensions/>
+      </scm>
+      <node></node>
+      <workspace>/var/lib/jenkins/workspace/Calculator-pipeline</workspace>
+      <changelogFile>/var/lib/jenkins/jobs/Calculator-pipeline/builds/1/changelog0.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

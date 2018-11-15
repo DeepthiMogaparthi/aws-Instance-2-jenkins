@@ -1,0 +1,128 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.25">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@1.29">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.57">
+    <script>node {
+    stage(&apos;Cloning source code&apos;)
+    {
+    checkout([$class: &apos;GitSCM&apos;, branches: [[name: &apos;*/master&apos;]], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: &apos;https://github.com/DevopsDevOrg/Repo1.git&apos;]]])
+    }
+
+
+parallel first:{
+    
+stage(&apos;Static code analysis&apos;)
+{
+
+
+  sh &apos;&apos;&apos;sudo scp -r /var/lib/jenkins/workspace/Calculator-pipeline /var/
+sudo -i
+cd /var/Calculator-pipeline
+sudo mvn sonar:sonar \\
+  -Dsonar.projectKey=DevopsDevOrg_Repo1 \\
+  -Dsonar.organization=devopsdevorg-github \\
+  -Dsonar.host.url=https://sonarcloud.io \\
+  -Dsonar.login=8d4c67077738cbd8a232200e0c9dc6bff7e06acf&apos;&apos;&apos;          
+}
+
+    },
+    
+second:{
+        
+    
+stage(&apos;Build and Test&apos;)
+{
+     sh &apos;mvn clean package&apos;
+     junit &apos;**/*.xml&apos;
+
+          
+}
+
+}
+
+
+stage(&apos;Docker Stage&apos;)
+{
+     sh &apos;docker build -t deepthimogaparthi1207/calculatorrepo:0.${BUILD_NUMBER} .&apos;
+     
+     withCredentials([string(credentialsId: &apos;docker-trial&apos;, variable: &apos;dockerHubpwd&apos;)]) {
+          sh &quot;docker login -u deepthimogaparthi1207 -p ${dockerHubpwd}&quot;
+            }
+        sh &apos;docker push deepthimogaparthi1207/calculatorrepo:0.${BUILD_NUMBER}&apos;
+}
+stage (&apos;deploy to QA and Dev&apos;)
+{   
+   
+   script {
+      Conatiner_Size = sh(returnStdout: true, script: &apos;docker ps -aq&apos;)
+    }
+     if (Conatiner_Size)
+     { sh &apos;docker stop $(docker ps -aq)&apos;
+     sh &apos;docker rm $(docker ps -aq)&apos;
+     sh &apos;docker run -p 8888:8080 -d --name=calculatorrepoDEV deepthimogaparthi1207/calculatorrepo:0.${BUILD_NUMBER}&apos;
+      sh &apos;docker run -p 8090:8080 -d --name=calculatorrepoQA deepthimogaparthi1207/calculatorrepo:0.${BUILD_NUMBER}&apos;
+            
+        }else
+        {
+             sh &apos;docker run -p 8888:8080 -d --name=calculatorrepoDEV deepthimogaparthi1207/calculatorrepo:0.${BUILD_NUMBER}&apos;
+             sh &apos;docker run -p 8090:8080 -d --name=calculatorrepoQA deepthimogaparthi1207/calculatorrepo:0.${BUILD_NUMBER}&apos;
+           
+        }
+   
+     echo &apos;docker ps -aq&apos;
+     sh &apos;docker stop $(docker ps -aq)&apos;
+     sh &apos;docker rm $(docker ps -aq)&apos;
+     sh &apos;docker run -p 8888:8080 -d --name=calculatorrepoDEV deepthimogaparthi1207/calculatorrepo:0.${BUILD_NUMBER}&apos;
+     sh &apos;docker run -p 8090:8080 -d --name=calculatorrepoQA deepthimogaparthi1207/calculatorrepo:0.${BUILD_NUMBER}&apos;
+     
+     }
+     
+     stage (&apos;QA_SELINIUM&apos;)
+    {
+
+     // build &apos;seleniumTest&apos;
+    
+     
+    // some block
+    
+    
+                git branch: &apos;test3&apos;, url: &apos;https://github.com/DevopsDevOrg/Repo1.git&apos;
+                sh &apos;mvn verify&apos;
+                step([$class: &apos;Publisher&apos;, reportFilenamePattern: &apos;**/testng-results.xml&apos;]) 
+    
+      
+
+    
+              
+
+         
+
+    }
+
+       stage(&apos;Approval&apos;)
+    {
+        input &apos;Want To Deploy To Production ?&apos;
+    }
+    
+    stage (&apos;deploy to prod&apos;)
+     {
+          sh &apos;docker run -p 9090:8080 -d --name=calculatorrepoPROD deepthimogaparthi1207/calculatorrepo:0.${BUILD_NUMBER}&apos;
+     }
+        
+     
+
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

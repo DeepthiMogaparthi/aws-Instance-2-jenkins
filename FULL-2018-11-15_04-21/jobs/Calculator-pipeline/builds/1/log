@@ -1,0 +1,113 @@
+Started by user [8mha:////4D54hLzVxf8lSFzgZgY8s+XqD8jl3MBRLZYNs5GItQGkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4AQatsHzbmXOJvcy0Fh2RlJkE1Zwbs1Y/kfu82w+36GIAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/Calculator-pipeline
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Cloning source code)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning repository https://github.com/DevopsDevOrg/Repo1.git
+ > git init /var/lib/jenkins/workspace/Calculator-pipeline # timeout=10
+Fetching upstream changes from https://github.com/DevopsDevOrg/Repo1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/DevopsDevOrg/Repo1.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/DevopsDevOrg/Repo1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/DevopsDevOrg/Repo1.git # timeout=10
+Fetching upstream changes from https://github.com/DevopsDevOrg/Repo1.git
+ > git fetch --tags --progress https://github.com/DevopsDevOrg/Repo1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 857f0177f530d9225604adffafc72a2ec8a5bdfa (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 857f0177f530d9225604adffafc72a2ec8a5bdfa
+Commit message: "Update Dockerfile"
+First time build. Skipping changelog.
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] parallel
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] { (Branch: first)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] { (Branch: second)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] { (Static code analysis)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] { (Build and Test)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] sh
+[first] [Calculator-pipeline] Running shell script
+[first] + sudo scp -r /var/lib/jenkins/workspace/pipeline_docker /var/
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] sh
+[first] cp: cannot stat '/var/lib/jenkins/workspace/pipeline_docker': No such file or directory
+[second] [Calculator-pipeline] Running shell script
+[second] + mvn clean package
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] }
+[first] Failed in branch first
+[second] [[1;34mINFO[m] Scanning for projects...
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[second] [[1;34mINFO[m] [1mBuilding CalculatorWeb Maven Webapp 1-SNAPSHOT[m
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/Calculator-pipeline/target
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[second] [[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Calculator-pipeline/src/main/resources
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;34mINFO[m] Changes detected - recompiling the module!
+[second] [[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[second] [[1;34mINFO[m] Compiling 2 source files to /var/lib/jenkins/workspace/Calculator-pipeline/target/classes
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[second] [[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Calculator-pipeline/src/test/resources
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;34mINFO[m] Changes detected - recompiling the module!
+[second] [[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[second] [[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/Calculator-pipeline/target/test-classes
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;34mINFO[m] Surefire report directory: /var/lib/jenkins/workspace/Calculator-pipeline/target/surefire-reports
+[second] 
+[second] -------------------------------------------------------
+[second]  T E S T S
+[second] -------------------------------------------------------
+[second] Running CalculatorTest
+[second] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 sec
+[second] 
+[second] Results :
+[second] 
+[second] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[second] 
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.2:war[m [1m(default-war)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;34mINFO[m] Packaging webapp
+[second] [[1;34mINFO[m] Assembling webapp [CALCULATOR] in [/var/lib/jenkins/workspace/Calculator-pipeline/target/CALCULATOR]
+[second] [[1;34mINFO[m] Processing war project
+[second] [[1;34mINFO[m] Copying webapp resources [/var/lib/jenkins/workspace/Calculator-pipeline/src/main/webapp]
+[second] [[1;34mINFO[m] Webapp assembled in [37 msecs]
+[second] [[1;34mINFO[m] Building war: /var/lib/jenkins/workspace/Calculator-pipeline/target/CALCULATOR.war
+[second] [[1;34mINFO[m] WEB-INF/web.xml already added, skipping
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[second] [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[second] [[1;34mINFO[m] Total time: 5.190 s
+[second] [[1;34mINFO[m] Finished at: 2018-10-23T06:07:15Z
+[second] [[1;34mINFO[m] Final Memory: 14M/35M
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] junit
+[second] Recording test results
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // parallel
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

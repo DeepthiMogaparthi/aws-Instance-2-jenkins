@@ -1,0 +1,141 @@
+[Calculator-pipeline] Running shell script
++ sudo scp -r /var/lib/jenkins/workspace/Calculator-pipeline /var/
++ sudo -i
+mesg: ttyname failed: Inappropriate ioctl for device
++ cd /var/Calculator-pipeline
++ sudo mvn sonar:sonar -Dsonar.projectKey=DevopsDevOrg_Repo1 -Dsonar.organization=devopsdevorg-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=8d4c67077738cbd8a232200e0c9dc6bff7e06acf
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding CalculatorWeb Maven Webapp 1-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msonar-maven-plugin:3.5.0.1254:sonar[m [1m(default-cli)[m @ [36mCALCULATOR[0;1m ---[m
+[[1;34mINFO[m] User cache: /root/.sonar/cache
+[[1;34mINFO[m] SonarQube version: 7.4.0
+[[1;34mINFO[m] Default locale: "en", source code encoding: "UTF-8" (analysis is platform dependent)
+[[1;34mINFO[m] Publish mode
+[[1;34mINFO[m] Load global settings
+[[1;34mINFO[m] Load global settings (done) | time=977ms
+[[1;34mINFO[m] Server id: BD367519-AWHW8ct9-T_TB3XqouNu
+[[1;34mINFO[m] User cache: /root/.sonar/cache
+[[1;34mINFO[m] Load/download plugins
+[[1;34mINFO[m] Load plugins index
+[[1;34mINFO[m] Load plugins index (done) | time=241ms
+[[1;34mINFO[m] Load/download plugins (done) | time=580ms
+[[1;34mINFO[m] Loaded core extensions: branch-scanner
+[[1;34mINFO[m] Process project properties
+[[1;34mINFO[m] Load project branches
+[[1;34mINFO[m] Load project branches (done) | time=131ms
+[[1;34mINFO[m] Load project pull requests
+[[1;34mINFO[m] Load project pull requests (done) | time=119ms
+[[1;34mINFO[m] Load branch configuration
+[[1;34mINFO[m] Load branch configuration (done) | time=9ms
+[[1;34mINFO[m] Load project repositories
+[[1;34mINFO[m] Load project repositories (done) | time=330ms
+[[1;34mINFO[m] Execute project builders
+[[1;34mINFO[m] Execute project builders (done) | time=1ms
+[[1;34mINFO[m] Load quality profiles
+[[1;34mINFO[m] Load quality profiles (done) | time=158ms
+[[1;34mINFO[m] Load active rules
+[[1;34mINFO[m] Load active rules (done) | time=3385ms
+[[1;34mINFO[m] Load metrics repository
+[[1;34mINFO[m] Load metrics repository (done) | time=142ms
+[[1;34mINFO[m] Project key: DevopsDevOrg_Repo1
+[[1;34mINFO[m] Project base dir: /var/Calculator-pipeline
+[[1;34mINFO[m] Organization key: devopsdevorg-github
+[[1;34mINFO[m] -------------  Scan CalculatorWeb Maven Webapp
+[[1;34mINFO[m] Base dir: /var/Calculator-pipeline
+[[1;34mINFO[m] Working dir: /var/Calculator-pipeline/target/sonar
+[[1;34mINFO[m] Source paths: src/main/webapp, pom.xml, src/main/java
+[[1;34mINFO[m] Test paths: src/test/java
+[[1;34mINFO[m] Source encoding: UTF-8, default locale: en
+[[1;34mINFO[m] Load server rules
+[[1;34mINFO[m] Load server rules (done) | time=957ms
+[[1;33mWARNING[m] Property 'sonar.abap.file.suffixes' is not declared as multi-values/property set but was read using 'getStringArray' method. The SonarQube plugin declaring this property should be updated.
+[[1;34mINFO[m] Index files
+[[1;34mINFO[m] 6 files indexed
+[[1;34mINFO[m] Quality profile for java: Sonar way
+[[1;34mINFO[m] Quality profile for web: Sonar way
+[[1;34mINFO[m] Quality profile for xml: Sonar way
+[[1;34mINFO[m] Sensor JavaSquidSensor [java]
+[[1;34mINFO[m] Configured Java source version (sonar.java.source): 5
+[[1;34mINFO[m] JavaClasspath initialization
+[[1;34mINFO[m] JavaClasspath initialization (done) | time=33ms
+[[1;34mINFO[m] JavaTestClasspath initialization
+[[1;34mINFO[m] JavaTestClasspath initialization (done) | time=4ms
+[[1;34mINFO[m] Java Main Files AST scan
+[[1;34mINFO[m] 2 source files to be analyzed
+[[1;34mINFO[m] 2/2 source files have been analyzed
+[[1;34mINFO[m] Java Main Files AST scan (done) | time=1542ms
+[[1;34mINFO[m] Java Test Files AST scan
+[[1;34mINFO[m] 1 source files to be analyzed
+[[1;34mINFO[m] 1/1 source files have been analyzed
+[[1;34mINFO[m] Java Test Files AST scan (done) | time=138ms
+[[1;34mINFO[m] Sensor JavaSquidSensor [java] (done) | time=2724ms
+[[1;34mINFO[m] Sensor SurefireSensor [java]
+[[1;34mINFO[m] parsing [/var/Calculator-pipeline/target/surefire-reports]
+[[1;34mINFO[m] Sensor SurefireSensor [java] (done) | time=150ms
+[[1;34mINFO[m] Sensor JaCoCoSensor [java]
+[[1;34mINFO[m] Sensor JaCoCoSensor [java] (done) | time=0ms
+[[1;34mINFO[m] Sensor SonarJavaXmlFileSensor [java]
+[[1;34mINFO[m] 2 source files to be analyzed
+[[1;34mINFO[m] 2/2 source files have been analyzed
+[[1;34mINFO[m] Sensor SonarJavaXmlFileSensor [java] (done) | time=977ms
+[[1;34mINFO[m] Sensor HTML [web]
+[[1;34mINFO[m] Sensor HTML [web] (done) | time=156ms
+[[1;34mINFO[m] Sensor XML Sensor [xml]
+[[1;33mWARNING[m] Metric 'comment_lines_data' is deprecated. Provided value is ignored.
+[[1;34mINFO[m] Sensor XML Sensor [xml] (done) | time=3293ms
+[[1;34mINFO[m] Sensor JaCoCo XML Report Importer [jacoco]
+[[1;34mINFO[m] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=37ms
+[[1;34mINFO[m] Sensor Zero Coverage Sensor
+[[1;34mINFO[m] Sensor Zero Coverage Sensor (done) | time=66ms
+[[1;34mINFO[m] Sensor JavaSecuritySensor [security]
+[[1;34mINFO[m] UCFGs: 5, excluded: 4, source entrypoints: 1
+[[1;34mINFO[m] Analyzing 5 ucfgs to detect vulnerabilities.
+[[1;34mINFO[m] rule: S3649, entrypoints: 0
+[[1;34mINFO[m] rule: S2076, entrypoints: 0
+[[1;34mINFO[m] rule: S2091, entrypoints: 0
+[[1;34mINFO[m] rule: S2078, entrypoints: 0
+[[1;34mINFO[m] rule: S2631, entrypoints: 0
+[[1;34mINFO[m] rule: S2083, entrypoints: 0
+[[1;34mINFO[m] Sensor JavaSecuritySensor [security] (done) | time=157ms
+[[1;34mINFO[m] Sensor CSharpSecuritySensor [security]
+[[1;34mINFO[m] UCFGs: 0, excluded: 0, source entrypoints: 0
+[[1;34mINFO[m] No UCFGs have been included for analysis.
+[[1;34mINFO[m] Sensor CSharpSecuritySensor [security] (done) | time=7ms
+[[1;34mINFO[m] Sensor Java CPD Block Indexer
+[[1;34mINFO[m] Sensor Java CPD Block Indexer (done) | time=40ms
+[[1;34mINFO[m] Calculating CPD for 3 files
+[[1;34mINFO[m] CPD calculation finished
+sh: 1: Cannot fork
+[[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 4,805ms last 8 cycles average is 600ms
+[[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 224,929ms last 8 cycles average is 28,716ms
+[[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 92,436ms last 8 cycles average is 12,001ms
+[[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 4,097ms last 8 cycles average is 1,101ms
+[[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 4,878ms last 8 cycles average is 1,255ms
+[[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 2,722ms last 8 cycles average is 844ms
+[[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 4,181ms last 8 cycles average is 1,052ms
+[[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 4,692ms last 8 cycles average is 1,250ms
+[[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 7,152ms last 8 cycles average is 1,629ms
+[[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 4,590ms last 8 cycles average is 952ms
+[[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 2,132ms last 8 cycles average is 1,058ms
+[[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 3,118ms last 8 cycles average is 419ms
+[[1;34mINFO[m] Analysis report generated in 2505228ms, dir size=75 KB
+[[1;34mINFO[m] Analysis reports compressed in 1932ms, zip size=31 KB
+[[1;34mINFO[m] Analysis report uploaded in 2342ms
+[[1;34mINFO[m] ANALYSIS SUCCESSFUL, you can browse https://sonarcloud.io/dashboard?id=DevopsDevOrg_Repo1
+[[1;34mINFO[m] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[[1;34mINFO[m] More about the report processing at https://sonarcloud.io/api/ce/task?id=AWaf-DfHCpA56q9LYtqm
+[[1;34mINFO[m] Task total time: 42:09.388 s
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 42:21 min
+[[1;34mINFO[m] Finished at: 2018-10-23T08:08:59Z
+[[1;34mINFO[m] Final Memory: 39M/178M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Sending interrupt signal to process
+Sending interrupt signal to process
+After 10s process did not stop

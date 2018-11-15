@@ -1,0 +1,250 @@
+Started by user [8mha:////4D54hLzVxf8lSFzgZgY8s+XqD8jl3MBRLZYNs5GItQGkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4AQatsHzbmXOJvcy0Fh2RlJkE1Zwbs1Y/kfu82w+36GIAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/Calculator-pipeline
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Cloning source code)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/DevopsDevOrg/Repo1.git # timeout=10
+Fetching upstream changes from https://github.com/DevopsDevOrg/Repo1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/DevopsDevOrg/Repo1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision c93d166834195ec5d3b66b1dd4628b9f24875512 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c93d166834195ec5d3b66b1dd4628b9f24875512
+Commit message: "Update Dockerfile"
+ > git rev-list --no-walk c93d166834195ec5d3b66b1dd4628b9f24875512 # timeout=10
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] parallel
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] { (Branch: first)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] { (Branch: second)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] { (Static code analysis)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] { (Build and Test)
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] sh
+[first] [Calculator-pipeline] Running shell script
+[first] + sudo scp -r /var/lib/jenkins/workspace/Calculator-pipeline /var/
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] sh
+[first] + sudo -i
+[first] mesg: ttyname failed: Inappropriate ioctl for device
+[first] + cd /var/Calculator-pipeline
+[first] + sudo mvn sonar:sonar -Dsonar.projectKey=DevopsDevOrg_Repo1 -Dsonar.organization=devopsdevorg-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=8d4c67077738cbd8a232200e0c9dc6bff7e06acf
+[second] [Calculator-pipeline] Running shell script
+[second] + mvn clean package
+[first] [[1;34mINFO[m] Scanning for projects...
+[second] [[1;34mINFO[m] Scanning for projects...
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[second] [[1;34mINFO[m] [1mBuilding CalculatorWeb Maven Webapp 1-SNAPSHOT[m
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[first] [[1;34mINFO[m] 
+[first] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[first] [[1;34mINFO[m] [1mBuilding CalculatorWeb Maven Webapp 1-SNAPSHOT[m
+[first] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[first] [[1;34mINFO[m] 
+[first] [[1;34mINFO[m] [1m--- [0;32msonar-maven-plugin:3.5.0.1254:sonar[m [1m(default-cli)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/Calculator-pipeline/target
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[second] [[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Calculator-pipeline/src/main/resources
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mCALCULATOR[0;1m ---[m
+[first] [[1;34mINFO[m] User cache: /root/.sonar/cache
+[second] [[1;34mINFO[m] Changes detected - recompiling the module!
+[second] [[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[second] [[1;34mINFO[m] Compiling 2 source files to /var/lib/jenkins/workspace/Calculator-pipeline/target/classes
+[first] [[1;34mINFO[m] SonarQube version: 7.4.0
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[second] [[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/Calculator-pipeline/src/test/resources
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;34mINFO[m] Changes detected - recompiling the module!
+[second] [[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[second] [[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/Calculator-pipeline/target/test-classes
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mCALCULATOR[0;1m ---[m
+[first] [[1;34mINFO[m] Default locale: "en", source code encoding: "UTF-8" (analysis is platform dependent)
+[first] [[1;34mINFO[m] Publish mode
+[second] [[1;34mINFO[m] Surefire report directory: /var/lib/jenkins/workspace/Calculator-pipeline/target/surefire-reports
+[second] 
+[second] -------------------------------------------------------
+[second]  T E S T S
+[second] -------------------------------------------------------
+[first] [[1;34mINFO[m] Load global settings
+[second] Running CalculatorTest
+[first] [[1;34mINFO[m] Load global settings (done) | time=977ms
+[first] [[1;34mINFO[m] Server id: BD367519-AWHW8ct9-T_TB3XqouNu
+[first] [[1;34mINFO[m] User cache: /root/.sonar/cache
+[second] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 sec
+[second] 
+[second] Results :
+[second] 
+[second] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[second] 
+[second] [[1;34mINFO[m] 
+[second] [[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.2:war[m [1m(default-war)[m @ [36mCALCULATOR[0;1m ---[m
+[second] [[1;34mINFO[m] Packaging webapp
+[second] [[1;34mINFO[m] Assembling webapp [CALCULATOR] in [/var/lib/jenkins/workspace/Calculator-pipeline/target/CALCULATOR]
+[second] [[1;34mINFO[m] Processing war project
+[second] [[1;34mINFO[m] Copying webapp resources [/var/lib/jenkins/workspace/Calculator-pipeline/src/main/webapp]
+[second] [[1;34mINFO[m] Webapp assembled in [84 msecs]
+[second] [[1;34mINFO[m] Building war: /var/lib/jenkins/workspace/Calculator-pipeline/target/CALCULATOR.war
+[second] [[1;34mINFO[m] WEB-INF/web.xml already added, skipping
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[second] [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[second] [[1;34mINFO[m] Total time: 8.093 s
+[second] [[1;34mINFO[m] Finished at: 2018-10-23T07:26:46Z
+[second] [[1;34mINFO[m] Final Memory: 14M/35M
+[second] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] junit
+[second] Recording test results
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [second] }
+[first] [[1;34mINFO[m] Load/download plugins
+[first] [[1;34mINFO[m] Load plugins index
+[first] [[1;34mINFO[m] Load plugins index (done) | time=241ms
+[first] [[1;34mINFO[m] Load/download plugins (done) | time=580ms
+[first] [[1;34mINFO[m] Loaded core extensions: branch-scanner
+[first] [[1;34mINFO[m] Process project properties
+[first] [[1;34mINFO[m] Load project branches
+[first] [[1;34mINFO[m] Load project branches (done) | time=131ms
+[first] [[1;34mINFO[m] Load project pull requests
+[first] [[1;34mINFO[m] Load project pull requests (done) | time=119ms
+[first] [[1;34mINFO[m] Load branch configuration
+[first] [[1;34mINFO[m] Load branch configuration (done) | time=9ms
+[first] [[1;34mINFO[m] Load project repositories
+[first] [[1;34mINFO[m] Load project repositories (done) | time=330ms
+[first] [[1;34mINFO[m] Execute project builders
+[first] [[1;34mINFO[m] Execute project builders (done) | time=1ms
+[first] [[1;34mINFO[m] Load quality profiles
+[first] [[1;34mINFO[m] Load quality profiles (done) | time=158ms
+[first] [[1;34mINFO[m] Load active rules
+[first] [[1;34mINFO[m] Load active rules (done) | time=3385ms
+[first] [[1;34mINFO[m] Load metrics repository
+[first] [[1;34mINFO[m] Load metrics repository (done) | time=142ms
+[first] [[1;34mINFO[m] Project key: DevopsDevOrg_Repo1
+[first] [[1;34mINFO[m] Project base dir: /var/Calculator-pipeline
+[first] [[1;34mINFO[m] Organization key: devopsdevorg-github
+[first] [[1;34mINFO[m] -------------  Scan CalculatorWeb Maven Webapp
+[first] [[1;34mINFO[m] Base dir: /var/Calculator-pipeline
+[first] [[1;34mINFO[m] Working dir: /var/Calculator-pipeline/target/sonar
+[first] [[1;34mINFO[m] Source paths: src/main/webapp, pom.xml, src/main/java
+[first] [[1;34mINFO[m] Test paths: src/test/java
+[first] [[1;34mINFO[m] Source encoding: UTF-8, default locale: en
+[first] [[1;34mINFO[m] Load server rules
+[first] [[1;34mINFO[m] Load server rules (done) | time=957ms
+[first] [[1;33mWARNING[m] Property 'sonar.abap.file.suffixes' is not declared as multi-values/property set but was read using 'getStringArray' method. The SonarQube plugin declaring this property should be updated.
+[first] [[1;34mINFO[m] Index files
+[first] [[1;34mINFO[m] 6 files indexed
+[first] [[1;34mINFO[m] Quality profile for java: Sonar way
+[first] [[1;34mINFO[m] Quality profile for web: Sonar way
+[first] [[1;34mINFO[m] Quality profile for xml: Sonar way
+[first] [[1;34mINFO[m] Sensor JavaSquidSensor [java]
+[first] [[1;34mINFO[m] Configured Java source version (sonar.java.source): 5
+[first] [[1;34mINFO[m] JavaClasspath initialization
+[first] [[1;34mINFO[m] JavaClasspath initialization (done) | time=33ms
+[first] [[1;34mINFO[m] JavaTestClasspath initialization
+[first] [[1;34mINFO[m] JavaTestClasspath initialization (done) | time=4ms
+[first] [[1;34mINFO[m] Java Main Files AST scan
+[first] [[1;34mINFO[m] 2 source files to be analyzed
+[first] [[1;34mINFO[m] 2/2 source files have been analyzed
+[first] [[1;34mINFO[m] Java Main Files AST scan (done) | time=1542ms
+[first] [[1;34mINFO[m] Java Test Files AST scan
+[first] [[1;34mINFO[m] 1 source files to be analyzed
+[first] [[1;34mINFO[m] 1/1 source files have been analyzed
+[first] [[1;34mINFO[m] Java Test Files AST scan (done) | time=138ms
+[first] [[1;34mINFO[m] Sensor JavaSquidSensor [java] (done) | time=2724ms
+[first] [[1;34mINFO[m] Sensor SurefireSensor [java]
+[first] [[1;34mINFO[m] parsing [/var/Calculator-pipeline/target/surefire-reports]
+[first] [[1;34mINFO[m] Sensor SurefireSensor [java] (done) | time=150ms
+[first] [[1;34mINFO[m] Sensor JaCoCoSensor [java]
+[first] [[1;34mINFO[m] Sensor JaCoCoSensor [java] (done) | time=0ms
+[first] [[1;34mINFO[m] Sensor SonarJavaXmlFileSensor [java]
+[first] [[1;34mINFO[m] 2 source files to be analyzed
+[first] [[1;34mINFO[m] 2/2 source files have been analyzed
+[first] [[1;34mINFO[m] Sensor SonarJavaXmlFileSensor [java] (done) | time=977ms
+[first] [[1;34mINFO[m] Sensor HTML [web]
+[first] [[1;34mINFO[m] Sensor HTML [web] (done) | time=156ms
+[first] [[1;34mINFO[m] Sensor XML Sensor [xml]
+[first] [[1;33mWARNING[m] Metric 'comment_lines_data' is deprecated. Provided value is ignored.
+[first] [[1;34mINFO[m] Sensor XML Sensor [xml] (done) | time=3293ms
+[first] [[1;34mINFO[m] Sensor JaCoCo XML Report Importer [jacoco]
+[first] [[1;34mINFO[m] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=37ms
+[first] [[1;34mINFO[m] Sensor Zero Coverage Sensor
+[first] [[1;34mINFO[m] Sensor Zero Coverage Sensor (done) | time=66ms
+[first] [[1;34mINFO[m] Sensor JavaSecuritySensor [security]
+[first] [[1;34mINFO[m] UCFGs: 5, excluded: 4, source entrypoints: 1
+[first] [[1;34mINFO[m] Analyzing 5 ucfgs to detect vulnerabilities.
+[first] [[1;34mINFO[m] rule: S3649, entrypoints: 0
+[first] [[1;34mINFO[m] rule: S2076, entrypoints: 0
+[first] [[1;34mINFO[m] rule: S2091, entrypoints: 0
+[first] [[1;34mINFO[m] rule: S2078, entrypoints: 0
+[first] [[1;34mINFO[m] rule: S2631, entrypoints: 0
+[first] [[1;34mINFO[m] rule: S2083, entrypoints: 0
+[first] [[1;34mINFO[m] Sensor JavaSecuritySensor [security] (done) | time=157ms
+[first] [[1;34mINFO[m] Sensor CSharpSecuritySensor [security]
+[first] [[1;34mINFO[m] UCFGs: 0, excluded: 0, source entrypoints: 0
+[first] [[1;34mINFO[m] No UCFGs have been included for analysis.
+[first] [[1;34mINFO[m] Sensor CSharpSecuritySensor [security] (done) | time=7ms
+[first] [[1;34mINFO[m] Sensor Java CPD Block Indexer
+[first] [[1;34mINFO[m] Sensor Java CPD Block Indexer (done) | time=40ms
+[first] [[1;34mINFO[m] Calculating CPD for 3 files
+[first] [[1;34mINFO[m] CPD calculation finished
+[first] sh: 1: Cannot fork
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 4,805ms last 8 cycles average is 600ms
+Resuming build at Thu Nov 15 04:09:50 UTC 2018 after Jenkins restart
+Waiting to resume part of Calculator-pipeline #8: ???
+Ready to run at Thu Nov 15 04:09:52 UTC 2018
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 224,929ms last 8 cycles average is 28,716ms
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 92,436ms last 8 cycles average is 12,001ms
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 4,097ms last 8 cycles average is 1,101ms
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 4,878ms last 8 cycles average is 1,255ms
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 2,722ms last 8 cycles average is 844ms
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 4,181ms last 8 cycles average is 1,052ms
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 4,692ms last 8 cycles average is 1,250ms
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 7,152ms last 8 cycles average is 1,629ms
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 4,590ms last 8 cycles average is 952ms
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 2,132ms last 8 cycles average is 1,058ms
+[first] [[1;33mWARNING[m] [JOURNAL_FLUSHER] WARNING Journal flush operation took 3,118ms last 8 cycles average is 419ms
+[first] [[1;34mINFO[m] Analysis report generated in 2505228ms, dir size=75 KB
+[first] [[1;34mINFO[m] Analysis reports compressed in 1932ms, zip size=31 KB
+[first] [[1;34mINFO[m] Analysis report uploaded in 2342ms
+[first] [[1;34mINFO[m] ANALYSIS SUCCESSFUL, you can browse https://sonarcloud.io/dashboard?id=DevopsDevOrg_Repo1
+[first] [[1;34mINFO[m] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[first] [[1;34mINFO[m] More about the report processing at https://sonarcloud.io/api/ce/task?id=AWaf-DfHCpA56q9LYtqm
+[first] [[1;34mINFO[m] Task total time: 42:09.388 s
+[first] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[first] [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[first] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[first] [[1;34mINFO[m] Total time: 42:21 min
+[first] [[1;34mINFO[m] Finished at: 2018-10-23T08:08:59Z
+[first] [[1;34mINFO[m] Final Memory: 39M/178M
+[first] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Aborted by [8mha:////4D54hLzVxf8lSFzgZgY8s+XqD8jl3MBRLZYNs5GItQGkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+[first] Sending interrupt signal to process
+Aborted by [8mha:////4D54hLzVxf8lSFzgZgY8s+XqD8jl3MBRLZYNs5GItQGkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+[first] Sending interrupt signal to process
+[first] After 10s process did not stop
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] // stage
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [first] }
+[first] Failed in branch first
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // parallel
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4GcNS7eX2Mofra+KiOgB29wHT5fR1wzQAxjTMmF0cJJfAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: ABORTED

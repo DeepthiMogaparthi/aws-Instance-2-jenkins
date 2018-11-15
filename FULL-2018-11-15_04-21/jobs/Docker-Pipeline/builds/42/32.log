@@ -1,0 +1,4 @@
+[Docker-Pipeline] Running shell script
++ docker run -p 9090:8080 -d --name=dev-test222 deepthimogaparthi1207/dev-test1:1.0
+docker: Error response from daemon: Conflict. The container name "/dev-test222" is already in use by container "276c429aa1f943632e19d159a5aea01d21e03c83d62cef7564cd12416f43b857". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.

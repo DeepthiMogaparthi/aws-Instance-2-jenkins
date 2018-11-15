@@ -1,0 +1,7 @@
+[Calculator-pipeline@2] Running shell script
++ docker ps -aq
++ docker rm d47142e1af60 3dac629fd130 7cd1367d5a05 39bb11ae81bb
+d47142e1af60
+3dac629fd130
+7cd1367d5a05
+39bb11ae81bb

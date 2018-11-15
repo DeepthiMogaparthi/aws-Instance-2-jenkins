@@ -1,0 +1,3 @@
+[Docker-Pipeline] Running shell script
++ docker run -p 9090:8080 -d --name=docker-repo53 deepthimogaparthi1207/repo:53.0
+d47142e1af60ad369cd30a34d6e97256abfda440c1dfae9324e061b2d5c8a013

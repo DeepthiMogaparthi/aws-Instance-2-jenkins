@@ -1,0 +1,4 @@
+[Docker-Pipeline] Running shell script
++ docker run -p 9090:8080 -d --name=docker-repo47 deepthimogaparthi1207/repo47:1.0
+17d621eb3d4fd20a6ecdf8fb1cba70b82b18d5ce84177bab3eeb487fbe7b01c2
+docker: Error response from daemon: driver failed programming external connectivity on endpoint docker-repo47 (50e57c0df74d50293b97e06c91d537b63f716ccefcb7f8ec21cb7af6467600f9): Bind for 0.0.0.0:9090 failed: port is already allocated.

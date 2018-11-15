@@ -1,0 +1,4 @@
+[Calculator-pipeline] Running shell script
++ docker push deepthimogaparthi1207/calculatorrepo:0.7
+The push refers to repository [docker.io/deepthimogaparthi1207/calculatorrepo]
+An image does not exist locally with the tag: deepthimogaparthi1207/calculatorrepo
